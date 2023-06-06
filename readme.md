@@ -1,5 +1,8 @@
+# 系统要求
+1. windows 8 及以上版本系统
+2. 
 # 安装要求
-1. 安装chrome浏览器
+1. 安装chrome浏览器（非chrome内核，非portable)
 
 # 使用方法
 1. 解压xxqg_enter.zip
