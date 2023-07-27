@@ -1,18 +1,15 @@
-2023-07-26 13:40:40.155 INFO 13368 [MainThread] --- None : [][][my_log.py:get_logger:60] SpdbLog model inited.
-2023-07-26 13:40:40.155 INFO 13368 [MainThread] --- None : [][][my_log.py:get_logger:61] log file is F:\work\zhangjl19\1.pyprojects\xxqg\dist\xxqg_enter\utils\../log\server.log
-2023-07-26 13:40:40.183 INFO 13368 [MainThread] --- None : [][][Xxqg.py:init_driver:58] installing web driver
-2023-07-26 13:40:40.826 INFO 13368 [MainThread] --- None : [][][Xxqg.py:init_driver:60] webdriver installed on path C:\Users\Administrator\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe
-2023-07-26 13:40:42.210 INFO 13368 [MainThread] --- None : [][][MyDb.py:init_db:28] db inited
-2023-07-26 13:40:42.210 INFO 13368 [MainThread] --- None : [][][MyDb.py:init_db:30] db connected 
-2023-07-26 13:40:56.779 INFO 13368 [MainThread] --- None : [][][xxqg_enter.py:load_login_qr:66] 用户未登录，正在获取登录二维码
-2023-07-26 13:40:59.695 INFO 13368 [Thread-1 (check_login)] --- None : [][][xxqg_enter.py:check_login:114] 尝试第1次登录
-2023-07-26 13:41:04.628 INFO 13368 [Thread-1 (check_login)] --- None : [][][xxqg_enter.py:check_login:117] 第1次登录成功
-2023-07-26 13:41:11.750 INFO 13368 [MainThread] --- None : [][][Xxqg.py:get_score:110] 当前总积分：25821
-2023-07-26 13:41:11.751 INFO 13368 [MainThread] --- None : [][][Xxqg.py:get_score:111] 今日积分：42
-2023-07-26 13:41:11.889 INFO 13368 [Dummy-2] --- None : [][][xxqg_enter.py:run:151] 开始2023-07-26的学习
-2023-07-26 13:41:12.699 INFO 13368 [Dummy-2] --- None : [][][Xxqg.py:get_score:110] 当前总积分：25821
-2023-07-26 13:41:12.699 INFO 13368 [Dummy-2] --- None : [][][Xxqg.py:get_score:111] 今日积分：42
-2023-07-26 13:41:12.813 INFO 13368 [Dummy-2] --- None : [][][xxqg_enter.py:run:153] 开始2023-07-26的学习, 积分情况{"today_score": 42, "read_score": 12, "total_read_score": 12, "vision_score": 12, "total_vision_score": 12, "daily_score": 4, "total_daily_score": 5, "special_score": 0, "total_special_score": 0, "total_score": 25821}
-2023-07-26 13:41:12.813 INFO 13368 [Dummy-2] --- None : [][][xxqg_enter.py:run:171] 当前积分：42
-2023-07-26 13:41:12.814 INFO 13368 [Dummy-2] --- None : [][][xxqg_enter.py:run:178] begin watch videos.
-2023-07-26 13:41:12.815 INFO 13368 [Dummy-2] --- None : [][][Xxqg.py:watch_videos:930] begin watch vision_look_score is 12 total vision_look_score is 12 vision time score is 4 total vision time score is 5
+2023-07-27 10:04:03.926 INFO 13460 [MainThread] --- None : [][][my_log.py:get_logger:60] SpdbLog model inited.
+2023-07-27 10:04:03.927 INFO 13460 [MainThread] --- None : [][][my_log.py:get_logger:61] log file is F:\work\zhangjl19\1.pyprojects\xxqg\dist\xxqg_enter\utils\../log\server.log
+2023-07-27 10:04:03.950 INFO 13460 [MainThread] --- None : [][][Xxqg.py:init_driver:58] installing web driver
+2023-07-27 10:04:04.580 INFO 13460 [MainThread] --- None : [][][Xxqg.py:init_driver:60] webdriver installed on path C:\Users\Administrator\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2023-07-27 10:04:06.030 INFO 13460 [MainThread] --- None : [][][MyDb.py:init_db:28] db inited
+2023-07-27 10:04:06.032 INFO 13460 [MainThread] --- None : [][][MyDb.py:init_db:30] db connected 
+2023-07-27 10:04:11.638 INFO 13460 [MainThread] --- None : [][][xxqg_enter.py:load_login_qr:66] 用户未登录，正在获取登录二维码
+2023-07-27 10:04:14.985 INFO 13460 [Thread-1 (check_login)] --- None : [][][xxqg_enter.py:check_login:114] 尝试第1次登录
+2023-07-27 10:04:20.080 INFO 13460 [Thread-1 (check_login)] --- None : [][][xxqg_enter.py:check_login:117] 第1次登录成功
+2023-07-27 10:05:29.279 INFO 15308 [MainThread] --- None : [][][my_log.py:get_logger:60] SpdbLog model inited.
+2023-07-27 10:05:29.280 INFO 15308 [MainThread] --- None : [][][my_log.py:get_logger:61] log file is F:\work\zhangjl19\1.pyprojects\xxqg\dist\xxqg_enter\utils\../log\server.log
+2023-07-27 10:05:29.298 INFO 15308 [MainThread] --- None : [][][Xxqg.py:init_driver:58] installing web driver
+2023-07-27 10:05:29.886 INFO 15308 [MainThread] --- None : [][][Xxqg.py:init_driver:60] webdriver installed on path C:\Users\Administrator\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2023-07-27 10:05:31.328 INFO 15308 [MainThread] --- None : [][][MyDb.py:init_db:28] db inited
+2023-07-27 10:05:31.329 INFO 15308 [MainThread] --- None : [][][MyDb.py:init_db:30] db connected 
