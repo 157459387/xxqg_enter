@@ -13,3 +13,150 @@
 2023-07-27 10:05:29.886 INFO 15308 [MainThread] --- None : [][][Xxqg.py:init_driver:60] webdriver installed on path C:\Users\Administrator\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe
 2023-07-27 10:05:31.328 INFO 15308 [MainThread] --- None : [][][MyDb.py:init_db:28] db inited
 2023-07-27 10:05:31.329 INFO 15308 [MainThread] --- None : [][][MyDb.py:init_db:30] db connected 
+2023-07-28 08:32:36.368 INFO 18160 [MainThread] --- None : [][][my_log.py:get_logger:60] SpdbLog model inited.
+2023-07-28 08:32:36.369 INFO 18160 [MainThread] --- None : [][][my_log.py:get_logger:61] log file is F:\work\xxqg_enter\utils\../log\server.log
+2023-07-28 08:32:36.397 INFO 18160 [MainThread] --- None : [][][Xxqg.py:init_driver:58] installing web driver
+2023-07-28 08:32:57.559 INFO 18160 [MainThread] --- None : [][][Xxqg.py:init_driver:60] webdriver installed on path C:\Users\Administrator\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2023-07-28 08:33:01.729 INFO 18160 [MainThread] --- None : [][][MyDb.py:init_db:28] db inited
+2023-07-28 08:33:01.730 INFO 18160 [MainThread] --- None : [][][MyDb.py:init_db:30] db connected 
+2023-07-28 08:33:05.845 INFO 18160 [MainThread] --- None : [][][xxqg_enter.py:load_login_qr:66] 用户未登录，正在获取登录二维码
+2023-07-28 08:33:11.426 INFO 18160 [Thread-2 (check_login)] --- None : [][][xxqg_enter.py:check_login:114] 尝试第1次登录
+2023-07-28 08:33:16.929 INFO 18160 [Thread-2 (check_login)] --- None : [][][xxqg_enter.py:check_login:117] 第1次登录成功
+2023-07-28 08:33:24.938 INFO 18160 [MainThread] --- None : [][][Xxqg.py:get_score:110] 当前总积分：25864
+2023-07-28 08:33:24.939 INFO 18160 [MainThread] --- None : [][][Xxqg.py:get_score:111] 今日积分：1
+2023-07-28 08:33:25.077 INFO 18160 [Dummy-3] --- None : [][][xxqg_enter.py:run:151] 开始2023-07-28的学习
+2023-07-28 08:33:26.140 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：25864
+2023-07-28 08:33:26.141 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：1
+2023-07-28 08:33:26.244 INFO 18160 [Dummy-3] --- None : [][][xxqg_enter.py:run:153] 开始2023-07-28的学习, 积分情况{"today_score": 1, "read_score": 0, "total_read_score": 12, "vision_score": 0, "total_vision_score": 12, "daily_score": 0, "total_daily_score": 5, "special_score": 0, "total_special_score": 0, "total_score": 25864}
+2023-07-28 08:33:26.245 INFO 18160 [Dummy-3] --- None : [][][xxqg_enter.py:run:171] 当前积分：1
+2023-07-28 08:33:26.245 INFO 18160 [Dummy-3] --- None : [][][xxqg_enter.py:run:173] begin read articles.
+2023-07-28 08:33:26.246 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:read_articles:306] begin reading articles today score is 0 total score is 12
+2023-07-28 08:33:26.246 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:read_articles:319] selecting artile from https://www.xuexi.cn/xxqg.html?id=cc8b6dc4f4c042e49fc93c279c41dc14
+2023-07-28 08:33:30.645 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:read_articles:325] reading article 尼日尔政变军人称已推翻总统巴祖姆
+2023-07-28 08:36:00.082 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：25880
+2023-07-28 08:36:00.083 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：17
+2023-07-28 08:36:00.201 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:read_articles:367] after read article 尼日尔政变军人称已推翻总统巴祖姆 score is 3 total score is 12
+2023-07-28 08:36:00.202 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:read_articles:319] selecting artile from https://www.xuexi.cn/xxqg.html?id=cc8b6dc4f4c042e49fc93c279c41dc14
+2023-07-28 08:36:04.684 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 尼日尔政变军人称已推翻总统巴祖姆 have been read ago
+2023-07-28 08:36:04.684 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:read_articles:325] reading article 莫迪政府因种族冲突面临不信任投票
+2023-07-28 08:36:06.993 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:read_articles:333] url https://www.xuexi.cn/lgpage/detail/index.html?id=10664081952267344053&item_id=10664081952267344053 is video wathing 
+2023-07-28 08:36:06.994 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:read_articles:337] watch video is not done wathcing ...
+2023-07-28 08:37:24.161 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：25884
+2023-07-28 08:37:24.162 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：21
+2023-07-28 08:37:24.324 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:read_articles:319] selecting artile from https://www.xuexi.cn/xxqg.html?id=56acf262eed846f59fba4e00fc57be4a
+2023-07-28 08:37:28.078 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:read_articles:325] reading article 美军战略弹道导弹核潜艇停靠釜山港 核航母南海异动
+2023-07-28 08:37:29.572 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:read_articles:333] url https://www.xuexi.cn/lgpage/detail/index.html?id=11622061756674654804&item_id=11622061756674654804 is video wathing 
+2023-07-28 08:37:29.573 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:read_articles:337] watch video is not done wathcing ...
+2023-07-28 08:38:44.267 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：25886
+2023-07-28 08:38:44.268 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：23
+2023-07-28 08:38:44.404 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:read_articles:319] selecting artile from https://www.xuexi.cn/6ffce1c0a4d8da43de4365e6590c4b9f/9a3668c13f6e303932b5e0e100fc248b.html
+2023-07-28 08:38:46.813 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:read_articles:325] reading article 准确把握共建“一带一路”能源合作高质量发展内涵
+2023-07-28 08:41:11.890 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：25889
+2023-07-28 08:41:11.890 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：26
+2023-07-28 08:41:12.053 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:read_articles:367] after read article 准确把握共建“一带一路”能源合作高质量发展内涵 score is 7 total score is 12
+2023-07-28 08:41:12.054 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:read_articles:319] selecting artile from https://www.xuexi.cn/xxqg.html?id=cc8b6dc4f4c042e49fc93c279c41dc14
+2023-07-28 08:41:16.214 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 尼日尔政变军人称已推翻总统巴祖姆 have been read ago
+2023-07-28 08:41:16.215 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 莫迪政府因种族冲突面临不信任投票 have been read ago
+2023-07-28 08:41:16.216 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:read_articles:325] reading article 路透社：莱茵河干旱拖累德国经济
+2023-07-28 08:41:17.928 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:read_articles:333] url https://www.xuexi.cn/lgpage/detail/index.html?id=2561757457808017837&item_id=2561757457808017837 is video wathing 
+2023-07-28 08:41:17.928 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:read_articles:337] watch video is not done wathcing ...
+2023-07-28 08:42:30.187 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：25891
+2023-07-28 08:42:30.187 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：28
+2023-07-28 08:42:30.308 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:read_articles:319] selecting artile from https://www.xuexi.cn/xxqg.html?id=56acf262eed846f59fba4e00fc57be4a
+2023-07-28 08:42:32.924 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 美军战略弹道导弹核潜艇停靠釜山港 核航母南海异动 have been read ago
+2023-07-28 08:42:32.925 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:read_articles:325] reading article 俄乌战事胶着 乌沦为西方“作战实验室”？
+2023-07-28 08:42:34.233 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:read_articles:333] url https://www.xuexi.cn/lgpage/detail/index.html?id=17753924138298088370&item_id=17753924138298088370 is video wathing 
+2023-07-28 08:42:34.233 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:read_articles:337] watch video is not done wathcing ...
+2023-07-28 08:43:47.734 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：25893
+2023-07-28 08:43:47.734 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：30
+2023-07-28 08:43:47.850 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:read_articles:319] selecting artile from https://www.xuexi.cn/6ffce1c0a4d8da43de4365e6590c4b9f/9a3668c13f6e303932b5e0e100fc248b.html
+2023-07-28 08:43:50.165 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 准确把握共建“一带一路”能源合作高质量发展内涵 have been read ago
+2023-07-28 08:43:50.166 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:read_articles:325] reading article 《时事报告》推出增刊 讲述“一带一路”建设中的故事
+2023-07-28 08:46:42.414 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：25895
+2023-07-28 08:46:42.415 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：32
+2023-07-28 08:46:42.536 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:read_articles:367] after read article 《时事报告》推出增刊 讲述“一带一路”建设中的故事 score is 9 total score is 12
+2023-07-28 08:46:42.536 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:read_articles:319] selecting artile from https://www.xuexi.cn/xxqg.html?id=cc8b6dc4f4c042e49fc93c279c41dc14
+2023-07-28 08:46:46.559 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 尼日尔政变军人称已推翻总统巴祖姆 have been read ago
+2023-07-28 08:46:46.560 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 莫迪政府因种族冲突面临不信任投票 have been read ago
+2023-07-28 08:46:46.561 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 路透社：莱茵河干旱拖累德国经济 have been read ago
+2023-07-28 08:46:46.562 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:read_articles:325] reading article 美军基地频传“放毒” 日本拟扩大居民血检规模
+2023-07-28 08:46:48.010 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:read_articles:333] url https://www.xuexi.cn/lgpage/detail/index.html?id=11947598054283786981&item_id=11947598054283786981 is video wathing 
+2023-07-28 08:46:48.011 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:read_articles:337] watch video is not done wathcing ...
+2023-07-28 08:48:00.273 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：25898
+2023-07-28 08:48:00.274 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：35
+2023-07-28 08:48:00.394 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:read_articles:319] selecting artile from https://www.xuexi.cn/xxqg.html?id=56acf262eed846f59fba4e00fc57be4a
+2023-07-28 08:48:02.882 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 美军战略弹道导弹核潜艇停靠釜山港 核航母南海异动 have been read ago
+2023-07-28 08:48:02.883 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 俄乌战事胶着 乌沦为西方“作战实验室”？ have been read ago
+2023-07-28 08:48:02.884 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:read_articles:325] reading article 克里米亚大桥遭袭 俄称将回应 乌媒：俄出动图-22
+2023-07-28 08:48:04.330 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:read_articles:333] url https://www.xuexi.cn/lgpage/detail/index.html?id=11823925145699198493&item_id=11823925145699198493 is video wathing 
+2023-07-28 08:48:04.331 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:read_articles:337] watch video is not done wathcing ...
+2023-07-28 08:49:16.711 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：25900
+2023-07-28 08:49:16.711 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：37
+2023-07-28 08:49:16.828 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:read_articles:319] selecting artile from https://www.xuexi.cn/6ffce1c0a4d8da43de4365e6590c4b9f/9a3668c13f6e303932b5e0e100fc248b.html
+2023-07-28 08:49:19.031 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 准确把握共建“一带一路”能源合作高质量发展内涵 have been read ago
+2023-07-28 08:49:19.031 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 《时事报告》推出增刊 讲述“一带一路”建设中的故事 have been read ago
+2023-07-28 08:49:19.032 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:read_articles:325] reading article “一带一路”故事绘：一名多哥青年的公路情缘
+2023-07-28 08:51:44.514 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：25901
+2023-07-28 08:51:44.515 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：38
+2023-07-28 08:51:44.640 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:read_articles:367] after read article “一带一路”故事绘：一名多哥青年的公路情缘 score is 11 total score is 12
+2023-07-28 08:51:44.641 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:read_articles:319] selecting artile from https://www.xuexi.cn/xxqg.html?id=cc8b6dc4f4c042e49fc93c279c41dc14
+2023-07-28 08:51:48.814 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 尼日尔政变军人称已推翻总统巴祖姆 have been read ago
+2023-07-28 08:51:48.815 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 莫迪政府因种族冲突面临不信任投票 have been read ago
+2023-07-28 08:51:48.816 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 路透社：莱茵河干旱拖累德国经济 have been read ago
+2023-07-28 08:51:48.818 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 美军基地频传“放毒” 日本拟扩大居民血检规模 have been read ago
+2023-07-28 08:51:48.819 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:read_articles:325] reading article 俄称战线取得进展 乌称俄欲封锁黑海
+2023-07-28 08:51:51.612 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:read_articles:333] url https://www.xuexi.cn/lgpage/detail/index.html?id=4432385020751597165&item_id=4432385020751597165 is video wathing 
+2023-07-28 08:51:51.613 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:read_articles:337] watch video is not done wathcing ...
+2023-07-28 08:53:22.705 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：25901
+2023-07-28 08:53:22.706 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：38
+2023-07-28 08:53:22.833 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:read_articles:319] selecting artile from https://www.xuexi.cn/xxqg.html?id=56acf262eed846f59fba4e00fc57be4a
+2023-07-28 08:53:25.112 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 美军战略弹道导弹核潜艇停靠釜山港 核航母南海异动 have been read ago
+2023-07-28 08:53:25.113 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 俄乌战事胶着 乌沦为西方“作战实验室”？ have been read ago
+2023-07-28 08:53:25.115 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 克里米亚大桥遭袭 俄称将回应 乌媒：俄出动图-22 have been read ago
+2023-07-28 08:53:25.118 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:read_articles:325] reading article 中国不背这个黑锅——起底美国芬太尼滥用难禁绝的根源
+2023-07-28 08:55:51.058 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：25901
+2023-07-28 08:55:51.058 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：38
+2023-07-28 08:55:51.206 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:read_articles:367] after read article 中国不背这个黑锅——起底美国芬太尼滥用难禁绝的根源 score is 11 total score is 12
+2023-07-28 08:55:51.207 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:read_articles:319] selecting artile from https://www.xuexi.cn/xxqg.html?id=cc8b6dc4f4c042e49fc93c279c41dc14
+2023-07-28 08:55:55.680 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 尼日尔政变军人称已推翻总统巴祖姆 have been read ago
+2023-07-28 08:55:55.681 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 莫迪政府因种族冲突面临不信任投票 have been read ago
+2023-07-28 08:55:55.682 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 路透社：莱茵河干旱拖累德国经济 have been read ago
+2023-07-28 08:55:55.683 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 美军基地频传“放毒” 日本拟扩大居民血检规模 have been read ago
+2023-07-28 08:55:55.684 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 俄称战线取得进展 乌称俄欲封锁黑海 have been read ago
+2023-07-28 08:55:55.685 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:read_articles:325] reading article 中方支持联合国秘书长争取早日恢复俄乌粮食化肥出口的努力
+2023-07-28 08:58:20.248 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：25902
+2023-07-28 08:58:20.249 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：39
+2023-07-28 08:58:20.375 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:read_articles:367] after read article 中方支持联合国秘书长争取早日恢复俄乌粮食化肥出口的努力 score is 12 total score is 12
+2023-07-28 08:58:20.375 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:read_articles:371] articles read score is 12 total score is 12
+2023-07-28 08:58:20.376 INFO 18160 [Dummy-3] --- None : [][][xxqg_enter.py:run:175] article readed
+2023-07-28 08:58:20.377 INFO 18160 [Dummy-3] --- None : [][][xxqg_enter.py:run:178] begin watch videos.
+2023-07-28 08:58:20.378 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:watch_videos:930] begin watch vision_look_score is 12 total vision_look_score is 12 daily_score score is 0 total_daily_score score is 5
+2023-07-28 08:58:25.919 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:watch_videos:943] watching video 习近平会见所罗门群岛总理
+2023-07-28 09:00:02.230 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：25902
+2023-07-28 09:00:02.230 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：39
+2023-07-28 09:00:02.429 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:watch_videos:959] after watch 习近平会见所罗门群岛总理 vision_look_score 12 total vision_look_score is 12 vision time score is 0 total vision time score is 5
+2023-07-28 09:00:08.752 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:watch_videos:943] watching video 口岸抵离服务保障工作全面启动
+2023-07-28 09:01:28.663 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：25902
+2023-07-28 09:01:28.663 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：39
+2023-07-28 09:01:28.811 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:watch_videos:959] after watch 口岸抵离服务保障工作全面启动 vision_look_score 12 total vision_look_score is 12 vision time score is 0 total vision time score is 5
+2023-07-28 09:01:36.090 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:watch_videos:943] watching video 总书记的一周（7月3日—7月9日）
+2023-07-28 09:03:15.666 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：25902
+2023-07-28 09:03:15.667 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：39
+2023-07-28 09:03:15.818 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:watch_videos:959] after watch 总书记的一周（7月3日—7月9日） vision_look_score 12 total vision_look_score is 12 vision time score is 0 total vision time score is 5
+2023-07-28 09:03:21.071 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:watch_videos:943] watching video 《新闻联播》 20230707
+2023-07-28 09:04:56.191 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：25902
+2023-07-28 09:04:56.192 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：39
+2023-07-28 09:04:56.348 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:watch_videos:959] after watch 《新闻联播》 20230707 vision_look_score 12 total vision_look_score is 12 vision time score is 0 total vision time score is 5
+2023-07-28 09:04:56.351 INFO 18160 [Dummy-3] --- None : [][][xxqg_enter.py:run:180] video watched.
+2023-07-28 09:04:56.351 INFO 18160 [Dummy-3] --- None : [][][xxqg_enter.py:run:182] begin daily_exam.
+2023-07-28 09:04:56.353 INFO 18160 [Dummy-3] --- None : [][][Xxqg.py:daily_answer:414] begin reading articles today score is 12 total score is 12
+2023-07-28 09:11:21.803 INFO 18160 [Dummy-3] --- None : [][][xxqg_enter.py:run:192] 学习过程出现异常，重新开始
+2023-07-28 09:11:21.812 ERROR 18160 [Dummy-3] --- None : [][][xxqg_enter.py:run:193] err msg Traceback (most recent call last):
+  File "xxqg_enter.py", line 183, in run
+  File "Xxqg.py", line 469, in daily_answer
+  File "Xxqg.py", line 402, in get_tips
+  File "selenium\webdriver\support\wait.py", line 86, in until
+  File "selenium\webdriver\support\expected_conditions.py", line 139, in _predicate
+  File "selenium\webdriver\support\expected_conditions.py", line 162, in _element_if_visible
+AttributeError: 'NoneType' object has no attribute 'is_displayed'
+
