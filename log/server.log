@@ -160,3 +160,651 @@
   File "selenium\webdriver\support\expected_conditions.py", line 162, in _element_if_visible
 AttributeError: 'NoneType' object has no attribute 'is_displayed'
 
+2023-07-31 08:45:24.743 INFO 17132 [MainThread] --- None : [][][my_log.py:get_logger:60] SpdbLog model inited.
+2023-07-31 08:45:24.743 INFO 17132 [MainThread] --- None : [][][my_log.py:get_logger:61] log file is F:\work\xxqg_enter\utils\../log\server.log
+2023-07-31 08:45:24.774 INFO 17132 [MainThread] --- None : [][][Xxqg.py:init_driver:58] installing web driver
+2023-07-31 08:45:32.752 INFO 17132 [MainThread] --- None : [][][Xxqg.py:init_driver:60] webdriver installed on path C:\Users\Administrator\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2023-07-31 08:45:38.344 INFO 17132 [MainThread] --- None : [][][MyDb.py:init_db:28] db inited
+2023-07-31 08:45:38.345 INFO 17132 [MainThread] --- None : [][][MyDb.py:init_db:30] db connected 
+2023-07-31 08:45:57.667 INFO 17132 [MainThread] --- None : [][][xxqg_enter.py:load_login_qr:66] 用户未登录，正在获取登录二维码
+2023-07-31 08:46:22.275 INFO 17132 [Thread-2 (check_login)] --- None : [][][xxqg_enter.py:check_login:114] 尝试第1次登录
+2023-07-31 08:46:29.930 INFO 17132 [Thread-2 (check_login)] --- None : [][][xxqg_enter.py:check_login:117] 第1次登录成功
+2023-07-31 08:46:37.410 INFO 17132 [MainThread] --- None : [][][Xxqg.py:get_score:110] 当前总积分：25961
+2023-07-31 08:46:37.411 INFO 17132 [MainThread] --- None : [][][Xxqg.py:get_score:111] 今日积分：1
+2023-07-31 08:46:37.559 INFO 17132 [Dummy-3] --- None : [][][xxqg_enter.py:run:151] 开始2023-07-31的学习
+2023-07-31 08:46:38.199 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：25961
+2023-07-31 08:46:38.200 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：1
+2023-07-31 08:46:38.308 INFO 17132 [Dummy-3] --- None : [][][xxqg_enter.py:run:153] 开始2023-07-31的学习, 积分情况{"today_score": 1, "read_score": 0, "total_read_score": 12, "vision_score": 0, "total_vision_score": 12, "daily_score": 0, "total_daily_score": 5, "special_score": 0, "total_special_score": 0, "total_score": 25961}
+2023-07-31 08:46:38.308 INFO 17132 [Dummy-3] --- None : [][][xxqg_enter.py:run:171] 当前积分：1
+2023-07-31 08:46:38.309 INFO 17132 [Dummy-3] --- None : [][][xxqg_enter.py:run:173] begin read articles.
+2023-07-31 08:46:38.310 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:read_articles:306] begin reading articles today score is 0 total score is 12
+2023-07-31 08:46:38.310 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:read_articles:319] selecting artile from https://www.xuexi.cn/xxqg.html?id=cc8b6dc4f4c042e49fc93c279c41dc14
+2023-07-31 08:46:43.703 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:read_articles:325] reading article 外交部提醒在尼日尔中国公民加强安全防范
+2023-07-31 08:49:10.466 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：25962
+2023-07-31 08:49:10.468 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：2
+2023-07-31 08:49:10.697 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:read_articles:367] after read article 外交部提醒在尼日尔中国公民加强安全防范 score is 1 total score is 12
+2023-07-31 08:49:10.698 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:read_articles:319] selecting artile from https://www.xuexi.cn/xxqg.html?id=cc8b6dc4f4c042e49fc93c279c41dc14
+2023-07-31 08:49:15.227 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 外交部提醒在尼日尔中国公民加强安全防范 have been read ago
+2023-07-31 08:49:15.228 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:read_articles:325] reading article 中方代表呼吁防止巴勒斯坦被占领土局势走向失控
+2023-07-31 08:51:40.175 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：25964
+2023-07-31 08:51:40.176 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：4
+2023-07-31 08:51:40.293 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:read_articles:367] after read article 中方代表呼吁防止巴勒斯坦被占领土局势走向失控 score is 3 total score is 12
+2023-07-31 08:51:40.294 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:read_articles:319] selecting artile from https://www.xuexi.cn/xxqg.html?id=cc8b6dc4f4c042e49fc93c279c41dc14
+2023-07-31 08:51:46.444 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 外交部提醒在尼日尔中国公民加强安全防范 have been read ago
+2023-07-31 08:51:46.445 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 中方代表呼吁防止巴勒斯坦被占领土局势走向失控 have been read ago
+2023-07-31 08:51:46.446 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:read_articles:325] reading article 中国气候变化事务特使应约举行气候双边会谈
+2023-07-31 08:54:12.157 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：25966
+2023-07-31 08:54:12.157 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：6
+2023-07-31 08:54:12.283 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:read_articles:367] after read article 中国气候变化事务特使应约举行气候双边会谈 score is 5 total score is 12
+2023-07-31 08:54:12.283 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:read_articles:319] selecting artile from https://www.xuexi.cn/xxqg.html?id=cc8b6dc4f4c042e49fc93c279c41dc14
+2023-07-31 08:54:22.102 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 外交部提醒在尼日尔中国公民加强安全防范 have been read ago
+2023-07-31 08:54:22.103 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 中方代表呼吁防止巴勒斯坦被占领土局势走向失控 have been read ago
+2023-07-31 08:54:22.103 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 中国气候变化事务特使应约举行气候双边会谈 have been read ago
+2023-07-31 08:54:22.104 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:read_articles:325] reading article 2023年7月27日外交部发言人毛宁主持例行记者会
+2023-07-31 08:56:47.460 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：25967
+2023-07-31 08:56:47.461 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：7
+2023-07-31 08:56:47.582 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:read_articles:367] after read article 2023年7月27日外交部发言人毛宁主持例行记者会 score is 6 total score is 12
+2023-07-31 08:56:47.583 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:read_articles:319] selecting artile from https://www.xuexi.cn/xxqg.html?id=cc8b6dc4f4c042e49fc93c279c41dc14
+2023-07-31 08:56:54.567 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 外交部提醒在尼日尔中国公民加强安全防范 have been read ago
+2023-07-31 08:56:54.568 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 中方代表呼吁防止巴勒斯坦被占领土局势走向失控 have been read ago
+2023-07-31 08:56:54.569 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 中国气候变化事务特使应约举行气候双边会谈 have been read ago
+2023-07-31 08:56:54.570 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 2023年7月27日外交部发言人毛宁主持例行记者会 have been read ago
+2023-07-31 08:56:54.572 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:read_articles:325] reading article 外交部：中方呼吁尼日尔相关方通过对话和平解决分歧
+2023-07-31 08:59:20.313 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：25967
+2023-07-31 08:59:20.313 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：7
+2023-07-31 08:59:20.440 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:read_articles:367] after read article 外交部：中方呼吁尼日尔相关方通过对话和平解决分歧 score is 6 total score is 12
+2023-07-31 08:59:20.441 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:read_articles:319] selecting artile from https://www.xuexi.cn/xxqg.html?id=cc8b6dc4f4c042e49fc93c279c41dc14
+2023-07-31 08:59:25.044 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 外交部提醒在尼日尔中国公民加强安全防范 have been read ago
+2023-07-31 08:59:25.045 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 中方代表呼吁防止巴勒斯坦被占领土局势走向失控 have been read ago
+2023-07-31 08:59:25.045 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 中国气候变化事务特使应约举行气候双边会谈 have been read ago
+2023-07-31 08:59:25.047 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 2023年7月27日外交部发言人毛宁主持例行记者会 have been read ago
+2023-07-31 08:59:25.048 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 外交部：中方呼吁尼日尔相关方通过对话和平解决分歧 have been read ago
+2023-07-31 08:59:25.049 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:read_articles:325] reading article 外交部：中巴始终在经济金融等领域开展密切的合作
+2023-07-31 09:01:51.709 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：25975
+2023-07-31 09:01:51.710 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：15
+2023-07-31 09:01:51.853 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:read_articles:367] after read article 外交部：中巴始终在经济金融等领域开展密切的合作 score is 6 total score is 12
+2023-07-31 09:01:51.854 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:read_articles:319] selecting artile from https://www.xuexi.cn/xxqg.html?id=cc8b6dc4f4c042e49fc93c279c41dc14
+2023-07-31 09:01:56.483 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 外交部提醒在尼日尔中国公民加强安全防范 have been read ago
+2023-07-31 09:01:56.484 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 中方代表呼吁防止巴勒斯坦被占领土局势走向失控 have been read ago
+2023-07-31 09:01:56.485 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 中国气候变化事务特使应约举行气候双边会谈 have been read ago
+2023-07-31 09:01:56.486 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 2023年7月27日外交部发言人毛宁主持例行记者会 have been read ago
+2023-07-31 09:01:56.486 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 外交部：中方呼吁尼日尔相关方通过对话和平解决分歧 have been read ago
+2023-07-31 09:01:56.488 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 外交部：中巴始终在经济金融等领域开展密切的合作 have been read ago
+2023-07-31 09:01:56.489 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:read_articles:325] reading article 外交部：坚决反对美国借国防授权法案夹带涉华消极内容
+2023-07-31 09:04:22.535 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：25981
+2023-07-31 09:04:22.536 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：21
+2023-07-31 09:04:22.665 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:read_articles:367] after read article 外交部：坚决反对美国借国防授权法案夹带涉华消极内容 score is 8 total score is 12
+2023-07-31 09:04:22.666 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:read_articles:319] selecting artile from https://www.xuexi.cn/xxqg.html?id=cc8b6dc4f4c042e49fc93c279c41dc14
+2023-07-31 09:04:33.549 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 外交部提醒在尼日尔中国公民加强安全防范 have been read ago
+2023-07-31 09:04:33.550 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 中方代表呼吁防止巴勒斯坦被占领土局势走向失控 have been read ago
+2023-07-31 09:04:33.551 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 中国气候变化事务特使应约举行气候双边会谈 have been read ago
+2023-07-31 09:04:33.552 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 2023年7月27日外交部发言人毛宁主持例行记者会 have been read ago
+2023-07-31 09:04:33.553 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 外交部：中方呼吁尼日尔相关方通过对话和平解决分歧 have been read ago
+2023-07-31 09:04:33.554 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 外交部：中巴始终在经济金融等领域开展密切的合作 have been read ago
+2023-07-31 09:04:33.555 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 外交部：坚决反对美国借国防授权法案夹带涉华消极内容 have been read ago
+2023-07-31 09:04:33.556 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:read_articles:325] reading article 外交部：太平洋岛国不是任何国家的“后院”
+2023-07-31 09:06:58.652 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：25982
+2023-07-31 09:06:58.653 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：22
+2023-07-31 09:06:58.785 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:read_articles:367] after read article 外交部：太平洋岛国不是任何国家的“后院” score is 9 total score is 12
+2023-07-31 09:06:58.785 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:read_articles:319] selecting artile from https://www.xuexi.cn/xxqg.html?id=cc8b6dc4f4c042e49fc93c279c41dc14
+2023-07-31 09:07:03.996 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 外交部提醒在尼日尔中国公民加强安全防范 have been read ago
+2023-07-31 09:07:03.998 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 中方代表呼吁防止巴勒斯坦被占领土局势走向失控 have been read ago
+2023-07-31 09:07:03.999 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 中国气候变化事务特使应约举行气候双边会谈 have been read ago
+2023-07-31 09:07:04.000 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 2023年7月27日外交部发言人毛宁主持例行记者会 have been read ago
+2023-07-31 09:07:04.001 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 外交部：中方呼吁尼日尔相关方通过对话和平解决分歧 have been read ago
+2023-07-31 09:07:04.003 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 外交部：中巴始终在经济金融等领域开展密切的合作 have been read ago
+2023-07-31 09:07:04.004 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 外交部：坚决反对美国借国防授权法案夹带涉华消极内容 have been read ago
+2023-07-31 09:07:04.005 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 外交部：太平洋岛国不是任何国家的“后院” have been read ago
+2023-07-31 09:07:04.006 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:read_articles:325] reading article 2023年7月27日国际新闻速览
+2023-07-31 09:07:06.192 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:read_articles:333] url https://www.xuexi.cn/lgpage/detail/index.html?id=7044362932866144601&item_id=7044362932866144601 is video wathing 
+2023-07-31 09:07:06.192 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:read_articles:337] watch video is not done wathcing ...
+2023-07-31 09:08:18.527 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：25984
+2023-07-31 09:08:18.528 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：24
+2023-07-31 09:08:18.654 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:read_articles:319] selecting artile from https://www.xuexi.cn/xxqg.html?id=56acf262eed846f59fba4e00fc57be4a
+2023-07-31 09:08:22.103 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:read_articles:325] reading article 不避与欧盟分歧 拉美国家发出自己的声音
+2023-07-31 09:10:47.356 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：25985
+2023-07-31 09:10:47.357 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：25
+2023-07-31 09:10:47.486 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:read_articles:367] after read article 不避与欧盟分歧 拉美国家发出自己的声音 score is 10 total score is 12
+2023-07-31 09:10:47.487 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:read_articles:319] selecting artile from https://www.xuexi.cn/xxqg.html?id=cc8b6dc4f4c042e49fc93c279c41dc14
+2023-07-31 09:10:51.772 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 外交部提醒在尼日尔中国公民加强安全防范 have been read ago
+2023-07-31 09:10:51.773 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 中方代表呼吁防止巴勒斯坦被占领土局势走向失控 have been read ago
+2023-07-31 09:10:51.774 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 中国气候变化事务特使应约举行气候双边会谈 have been read ago
+2023-07-31 09:10:51.775 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 2023年7月27日外交部发言人毛宁主持例行记者会 have been read ago
+2023-07-31 09:10:51.777 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 外交部：中方呼吁尼日尔相关方通过对话和平解决分歧 have been read ago
+2023-07-31 09:10:51.778 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 外交部：中巴始终在经济金融等领域开展密切的合作 have been read ago
+2023-07-31 09:10:51.779 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 外交部：坚决反对美国借国防授权法案夹带涉华消极内容 have been read ago
+2023-07-31 09:10:51.780 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 外交部：太平洋岛国不是任何国家的“后院” have been read ago
+2023-07-31 09:10:51.781 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 2023年7月27日国际新闻速览 have been read ago
+2023-07-31 09:10:51.782 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:read_articles:325] reading article 尼日尔总统：尼日尔民主成果终将受到保护
+2023-07-31 09:13:17.471 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：25986
+2023-07-31 09:13:17.472 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：26
+2023-07-31 09:13:17.615 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:read_articles:367] after read article 尼日尔总统：尼日尔民主成果终将受到保护 score is 11 total score is 12
+2023-07-31 09:13:17.616 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:read_articles:319] selecting artile from https://www.xuexi.cn/xxqg.html?id=cc8b6dc4f4c042e49fc93c279c41dc14
+2023-07-31 09:13:22.132 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 外交部提醒在尼日尔中国公民加强安全防范 have been read ago
+2023-07-31 09:13:22.134 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 中方代表呼吁防止巴勒斯坦被占领土局势走向失控 have been read ago
+2023-07-31 09:13:22.135 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 中国气候变化事务特使应约举行气候双边会谈 have been read ago
+2023-07-31 09:13:22.136 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 2023年7月27日外交部发言人毛宁主持例行记者会 have been read ago
+2023-07-31 09:13:22.137 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 外交部：中方呼吁尼日尔相关方通过对话和平解决分歧 have been read ago
+2023-07-31 09:13:22.138 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 外交部：中巴始终在经济金融等领域开展密切的合作 have been read ago
+2023-07-31 09:13:22.140 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 外交部：坚决反对美国借国防授权法案夹带涉华消极内容 have been read ago
+2023-07-31 09:13:22.141 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 外交部：太平洋岛国不是任何国家的“后院” have been read ago
+2023-07-31 09:13:22.142 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 2023年7月27日国际新闻速览 have been read ago
+2023-07-31 09:13:22.143 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 尼日尔总统：尼日尔民主成果终将受到保护 have been read ago
+2023-07-31 09:13:22.144 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:read_articles:325] reading article 联合国会议呼吁推动农业粮食体系转型
+2023-07-31 09:15:47.621 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：25987
+2023-07-31 09:15:47.621 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：27
+2023-07-31 09:15:47.745 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:read_articles:367] after read article 联合国会议呼吁推动农业粮食体系转型 score is 12 total score is 12
+2023-07-31 09:15:47.746 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:read_articles:371] articles read score is 12 total score is 12
+2023-07-31 09:15:47.746 INFO 17132 [Dummy-3] --- None : [][][xxqg_enter.py:run:175] article readed
+2023-07-31 09:15:47.747 INFO 17132 [Dummy-3] --- None : [][][xxqg_enter.py:run:178] begin watch videos.
+2023-07-31 09:15:47.748 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:watch_videos:930] begin watch vision_look_score is 2 total vision_look_score is 12 daily_score score is 0 total_daily_score score is 5
+2023-07-31 09:15:59.896 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:watch_videos:946] watching video 习近平同阿尔及利亚总统会谈
+2023-07-31 09:17:16.974 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：25989
+2023-07-31 09:17:16.975 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：29
+2023-07-31 09:17:17.114 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:watch_videos:962] after watch 习近平同阿尔及利亚总统会谈 vision_look_score 4 total vision_look_score is 12 daily_score score is 0 total_daily_score score is 5
+2023-07-31 09:17:26.390 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:watch_videos:946] watching video 为建设美好香港 实现民族复兴贡献力量——习近平给香港培侨中学学生的回信引发热烈反响
+2023-07-31 09:18:43.145 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：25992
+2023-07-31 09:18:43.145 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：32
+2023-07-31 09:18:43.277 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:watch_videos:962] after watch 为建设美好香港 实现民族复兴贡献力量——习近平给香港培侨中学学生的回信引发热烈反响 vision_look_score 7 total vision_look_score is 12 daily_score score is 0 total_daily_score score is 5
+2023-07-31 09:18:51.795 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:watch_videos:946] watching video 《中国式现代化》第四集《山河见证》
+2023-07-31 09:20:15.214 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：25994
+2023-07-31 09:20:15.214 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：34
+2023-07-31 09:20:15.344 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:watch_videos:962] after watch 《中国式现代化》第四集《山河见证》 vision_look_score 9 total vision_look_score is 12 daily_score score is 0 total_daily_score score is 5
+2023-07-31 09:20:23.666 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:watch_videos:946] watching video 《新闻联播》 20230710
+2023-07-31 09:21:40.154 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：25996
+2023-07-31 09:21:40.155 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：36
+2023-07-31 09:21:40.281 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:watch_videos:962] after watch 《新闻联播》 20230710 vision_look_score 11 total vision_look_score is 12 daily_score score is 0 total_daily_score score is 5
+2023-07-31 09:21:40.282 INFO 17132 [Dummy-3] --- None : [][][xxqg_enter.py:run:180] video watched.
+2023-07-31 09:21:40.282 INFO 17132 [Dummy-3] --- None : [][][xxqg_enter.py:run:182] begin daily_exam.
+2023-07-31 09:21:40.283 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:daily_answer:414] begin reading articles today score is 12 total score is 12
+2023-07-31 09:29:16.199 ERROR 17132 [Dummy-3] --- None : [][][Xxqg.py:daily_answer:450] no confirm buts
+2023-07-31 09:29:16.281 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:daily_answer:587] daily answer is ok
+2023-07-31 09:29:16.282 INFO 17132 [Dummy-3] --- None : [][][xxqg_enter.py:run:184] daily_exam over.
+2023-07-31 09:29:17.158 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26001
+2023-07-31 09:29:17.158 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：41
+2023-07-31 09:29:17.282 INFO 17132 [Dummy-3] --- None : [][][xxqg_enter.py:run:190] today score info is {"today_score": 41, "read_score": 12, "total_read_score": 12, "vision_score": 11, "total_vision_score": 12, "daily_score": 5, "total_daily_score": 5, "special_score": 0, "total_special_score": 0, "total_score": 26001}
+2023-07-31 09:29:17.282 INFO 17132 [Dummy-3] --- None : [][][xxqg_enter.py:run:171] 当前积分：41
+2023-07-31 09:29:17.283 INFO 17132 [Dummy-3] --- None : [][][xxqg_enter.py:run:178] begin watch videos.
+2023-07-31 09:29:17.284 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:watch_videos:930] begin watch vision_look_score is 11 total vision_look_score is 12 daily_score score is 5 total_daily_score score is 5
+2023-07-31 09:29:32.671 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_watchable_video:253] video 习近平同阿尔及利亚总统会谈 is watched
+2023-07-31 09:29:32.689 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:watch_videos:946] watching video 习近平举行仪式欢迎阿尔及利亚总统访华
+2023-07-31 09:30:49.319 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26001
+2023-07-31 09:30:49.320 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：41
+2023-07-31 09:30:49.441 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:watch_videos:962] after watch 习近平举行仪式欢迎阿尔及利亚总统访华 vision_look_score 11 total vision_look_score is 12 daily_score score is 5 total_daily_score score is 5
+2023-07-31 09:31:01.024 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_watchable_video:253] video 为建设美好香港 实现民族复兴贡献力量——习近平给香港培侨中学学生的回信引发热烈反响 is watched
+2023-07-31 09:31:01.042 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:watch_videos:946] watching video 【成都第31届世界大学生夏季运动会】多国体育代表团期待收获精彩和友谊
+2023-07-31 09:32:33.622 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26002
+2023-07-31 09:32:33.623 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：42
+2023-07-31 09:32:33.745 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:watch_videos:962] after watch 【成都第31届世界大学生夏季运动会】多国体育代表团期待收获精彩和友谊 vision_look_score 12 total vision_look_score is 12 daily_score score is 5 total_daily_score score is 5
+2023-07-31 09:32:33.745 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:watch_videos:942] score is ok no need watch.
+2023-07-31 09:32:33.746 INFO 17132 [Dummy-3] --- None : [][][xxqg_enter.py:run:180] video watched.
+2023-07-31 09:32:35.040 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26002
+2023-07-31 09:32:35.041 INFO 17132 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：42
+2023-07-31 09:32:35.176 INFO 17132 [Dummy-3] --- None : [][][xxqg_enter.py:run:190] today score info is {"today_score": 42, "read_score": 12, "total_read_score": 12, "vision_score": 12, "total_vision_score": 12, "daily_score": 5, "total_daily_score": 5, "special_score": 0, "total_special_score": 0, "total_score": 26002}
+2023-07-31 09:32:35.177 INFO 17132 [Dummy-3] --- None : [][][xxqg_enter.py:run:199] 2023-07-31 得分情况：{"today_score": 42, "read_score": 12, "total_read_score": 12, "vision_score": 12, "total_vision_score": 12, "daily_score": 5, "total_daily_score": 5, "special_score": 0, "total_special_score": 0, "total_score": 26002}, study is over
+2023-08-01 08:44:58.099 INFO 15576 [MainThread] --- None : [][][my_log.py:get_logger:60] SpdbLog model inited.
+2023-08-01 08:44:58.100 INFO 15576 [MainThread] --- None : [][][my_log.py:get_logger:61] log file is F:\work\xxqg_enter\utils\../log\server.log
+2023-08-01 08:44:58.123 INFO 15576 [MainThread] --- None : [][][Xxqg.py:init_driver:58] installing web driver
+2023-08-01 08:45:01.476 INFO 15576 [MainThread] --- None : [][][Xxqg.py:init_driver:60] webdriver installed on path C:\Users\Administrator\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2023-08-01 08:45:06.216 INFO 15576 [MainThread] --- None : [][][MyDb.py:init_db:28] db inited
+2023-08-01 08:45:06.218 INFO 15576 [MainThread] --- None : [][][MyDb.py:init_db:30] db connected 
+2023-08-01 08:45:23.316 INFO 15576 [MainThread] --- None : [][][xxqg_enter.py:load_login_qr:66] 用户未登录，正在获取登录二维码
+2023-08-01 08:45:38.704 INFO 15576 [Thread-2 (check_login)] --- None : [][][xxqg_enter.py:check_login:114] 尝试第1次登录
+2023-08-01 08:45:44.027 INFO 15576 [Thread-2 (check_login)] --- None : [][][xxqg_enter.py:check_login:117] 第1次登录成功
+2023-08-01 08:46:02.649 INFO 15576 [MainThread] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26004
+2023-08-01 08:46:02.650 INFO 15576 [MainThread] --- None : [][][Xxqg.py:get_score:111] 今日积分：2
+2023-08-01 08:46:02.779 INFO 15576 [Dummy-3] --- None : [][][xxqg_enter.py:run:151] 开始2023-08-01的学习
+2023-08-01 08:46:03.726 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26004
+2023-08-01 08:46:03.726 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：2
+2023-08-01 08:46:04.058 INFO 15576 [Dummy-3] --- None : [][][xxqg_enter.py:run:153] 开始2023-08-01的学习, 积分情况{"today_score": 2, "read_score": 0, "total_read_score": 12, "vision_score": 0, "total_vision_score": 12, "daily_score": 0, "total_daily_score": 5, "special_score": 0, "total_special_score": 0, "total_score": 26004}
+2023-08-01 08:46:04.059 INFO 15576 [Dummy-3] --- None : [][][xxqg_enter.py:run:171] 当前积分：2
+2023-08-01 08:46:04.059 INFO 15576 [Dummy-3] --- None : [][][xxqg_enter.py:run:173] begin read articles.
+2023-08-01 08:46:04.060 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:read_articles:306] begin reading articles today score is 0 total score is 12
+2023-08-01 08:46:04.060 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:read_articles:319] selecting artile from https://www.xuexi.cn/xxqg.html?id=cc8b6dc4f4c042e49fc93c279c41dc14
+2023-08-01 08:46:11.255 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:read_articles:325] reading article 外交部发言人就何立峰赴巴基斯坦出席中巴经济走廊启动十周年庆祝活动答记者问
+2023-08-01 08:48:37.734 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26006
+2023-08-01 08:48:37.734 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：4
+2023-08-01 08:48:37.861 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:read_articles:367] after read article 外交部发言人就何立峰赴巴基斯坦出席中巴经济走廊启动十周年庆祝活动答记者问 score is 2 total score is 12
+2023-08-01 08:48:37.862 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:read_articles:319] selecting artile from https://www.xuexi.cn/xxqg.html?id=cc8b6dc4f4c042e49fc93c279c41dc14
+2023-08-01 08:48:41.599 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 外交部发言人就何立峰赴巴基斯坦出席中巴经济走廊启动十周年庆祝活动答记者问 have been read ago
+2023-08-01 08:48:41.601 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:read_articles:325] reading article 普京：非洲和平方案与中方政治解决乌克兰危机的立场相呼应
+2023-08-01 08:51:06.757 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26010
+2023-08-01 08:51:06.757 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：8
+2023-08-01 08:51:06.862 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:read_articles:367] after read article 普京：非洲和平方案与中方政治解决乌克兰危机的立场相呼应 score is 6 total score is 12
+2023-08-01 08:51:06.862 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:read_articles:319] selecting artile from https://www.xuexi.cn/xxqg.html?id=cc8b6dc4f4c042e49fc93c279c41dc14
+2023-08-01 08:51:10.794 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 外交部发言人就何立峰赴巴基斯坦出席中巴经济走廊启动十周年庆祝活动答记者问 have been read ago
+2023-08-01 08:51:10.794 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 普京：非洲和平方案与中方政治解决乌克兰危机的立场相呼应 have been read ago
+2023-08-01 08:51:10.795 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:read_articles:325] reading article 中共代表团访问吉尔吉斯斯坦
+2023-08-01 08:53:36.067 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26013
+2023-08-01 08:53:36.068 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：11
+2023-08-01 08:53:36.248 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:read_articles:367] after read article 中共代表团访问吉尔吉斯斯坦 score is 9 total score is 12
+2023-08-01 08:53:36.249 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:read_articles:319] selecting artile from https://www.xuexi.cn/xxqg.html?id=cc8b6dc4f4c042e49fc93c279c41dc14
+2023-08-01 08:53:44.948 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 外交部发言人就何立峰赴巴基斯坦出席中巴经济走廊启动十周年庆祝活动答记者问 have been read ago
+2023-08-01 08:53:44.950 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 普京：非洲和平方案与中方政治解决乌克兰危机的立场相呼应 have been read ago
+2023-08-01 08:53:44.951 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 中共代表团访问吉尔吉斯斯坦 have been read ago
+2023-08-01 08:53:44.953 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:read_articles:325] reading article 刘建超访问卢旺达
+2023-08-01 08:56:11.727 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26014
+2023-08-01 08:56:11.728 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：12
+2023-08-01 08:56:11.850 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:read_articles:367] after read article 刘建超访问卢旺达 score is 10 total score is 12
+2023-08-01 08:56:11.851 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:read_articles:319] selecting artile from https://www.xuexi.cn/xxqg.html?id=cc8b6dc4f4c042e49fc93c279c41dc14
+2023-08-01 08:56:21.400 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 外交部发言人就何立峰赴巴基斯坦出席中巴经济走廊启动十周年庆祝活动答记者问 have been read ago
+2023-08-01 08:56:21.401 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 普京：非洲和平方案与中方政治解决乌克兰危机的立场相呼应 have been read ago
+2023-08-01 08:56:21.402 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 中共代表团访问吉尔吉斯斯坦 have been read ago
+2023-08-01 08:56:21.404 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 刘建超访问卢旺达 have been read ago
+2023-08-01 08:56:21.405 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:read_articles:325] reading article 外交部发言人：中方将坚定维护中国香港参加亚太经合组织会议的正当合法权利
+2023-08-01 08:58:46.195 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26015
+2023-08-01 08:58:46.196 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：13
+2023-08-01 08:58:46.318 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:read_articles:367] after read article 外交部发言人：中方将坚定维护中国香港参加亚太经合组织会议的正当合法权利 score is 11 total score is 12
+2023-08-01 08:58:46.318 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:read_articles:319] selecting artile from https://www.xuexi.cn/xxqg.html?id=cc8b6dc4f4c042e49fc93c279c41dc14
+2023-08-01 08:58:50.731 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 外交部发言人就何立峰赴巴基斯坦出席中巴经济走廊启动十周年庆祝活动答记者问 have been read ago
+2023-08-01 08:58:50.732 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 普京：非洲和平方案与中方政治解决乌克兰危机的立场相呼应 have been read ago
+2023-08-01 08:58:50.733 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 中共代表团访问吉尔吉斯斯坦 have been read ago
+2023-08-01 08:58:50.734 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 刘建超访问卢旺达 have been read ago
+2023-08-01 08:58:50.735 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 外交部发言人：中方将坚定维护中国香港参加亚太经合组织会议的正当合法权利 have been read ago
+2023-08-01 08:58:50.736 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:read_articles:325] reading article 中方呼吁联合国安理会尽快解除对有关非洲国家的制裁
+2023-08-01 09:01:16.220 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26016
+2023-08-01 09:01:16.221 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：14
+2023-08-01 09:01:16.345 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:read_articles:367] after read article 中方呼吁联合国安理会尽快解除对有关非洲国家的制裁 score is 12 total score is 12
+2023-08-01 09:01:16.345 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:read_articles:371] articles read score is 12 total score is 12
+2023-08-01 09:01:16.346 INFO 15576 [Dummy-3] --- None : [][][xxqg_enter.py:run:175] article readed
+2023-08-01 09:01:16.347 INFO 15576 [Dummy-3] --- None : [][][xxqg_enter.py:run:178] begin watch videos.
+2023-08-01 09:01:16.347 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:watch_videos:930] begin watch vision_look_score is 0 total vision_look_score is 12 daily_score score is 0 total_daily_score score is 5
+2023-08-01 09:01:22.992 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:watch_videos:946] watching video 习近平就中柬建交65周年同柬埔寨国王互致贺电
+2023-08-01 09:02:40.240 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26018
+2023-08-01 09:02:40.241 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：16
+2023-08-01 09:02:40.420 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:watch_videos:962] after watch 习近平就中柬建交65周年同柬埔寨国王互致贺电 vision_look_score 2 total vision_look_score is 12 daily_score score is 0 total_daily_score score is 5
+2023-08-01 09:02:47.598 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:watch_videos:946] watching video 中央政法委以高水平法治保障高质量发展
+2023-08-01 09:04:03.183 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26020
+2023-08-01 09:04:03.184 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：18
+2023-08-01 09:04:03.390 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:watch_videos:962] after watch 中央政法委以高水平法治保障高质量发展 vision_look_score 4 total vision_look_score is 12 daily_score score is 0 total_daily_score score is 5
+2023-08-01 09:04:08.718 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:watch_videos:946] watching video 总书记的一周（7月10日—7月16日）
+2023-08-01 09:05:27.183 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26022
+2023-08-01 09:05:27.184 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：20
+2023-08-01 09:05:27.320 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:watch_videos:962] after watch 总书记的一周（7月10日—7月16日） vision_look_score 6 total vision_look_score is 12 daily_score score is 0 total_daily_score score is 5
+2023-08-01 09:05:35.093 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:watch_videos:946] watching video 《新闻联播》 20230711
+2023-08-01 09:06:53.633 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26024
+2023-08-01 09:06:53.633 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：22
+2023-08-01 09:06:53.759 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:watch_videos:962] after watch 《新闻联播》 20230711 vision_look_score 8 total vision_look_score is 12 daily_score score is 0 total_daily_score score is 5
+2023-08-01 09:06:53.760 INFO 15576 [Dummy-3] --- None : [][][xxqg_enter.py:run:180] video watched.
+2023-08-01 09:06:53.761 INFO 15576 [Dummy-3] --- None : [][][xxqg_enter.py:run:182] begin daily_exam.
+2023-08-01 09:06:53.762 INFO 15576 [Dummy-3] --- None : [][][Xxqg.py:daily_answer:414] begin reading articles today score is 12 total score is 12
+2023-08-01 09:12:44.878 INFO 15576 [Dummy-3] --- None : [][][xxqg_enter.py:run:192] 学习过程出现异常，重新开始
+2023-08-01 09:12:44.882 ERROR 15576 [Dummy-3] --- None : [][][xxqg_enter.py:run:193] err msg Traceback (most recent call last):
+  File "xxqg_enter.py", line 183, in run
+  File "Xxqg.py", line 469, in daily_answer
+  File "Xxqg.py", line 402, in get_tips
+  File "selenium\webdriver\support\wait.py", line 95, in until
+selenium.common.exceptions.TimeoutException: Message: 
+
+
+2023-08-01 10:59:21.500 INFO 12204 [MainThread] --- None : [][][my_log.py:get_logger:60] SpdbLog model inited.
+2023-08-01 10:59:21.500 INFO 12204 [MainThread] --- None : [][][my_log.py:get_logger:61] log file is F:\work\xxqg_enter\utils\../log\server.log
+2023-08-01 10:59:21.529 INFO 12204 [MainThread] --- None : [][][Xxqg.py:init_driver:58] installing web driver
+2023-08-01 10:59:22.184 INFO 12204 [MainThread] --- None : [][][Xxqg.py:init_driver:60] webdriver installed on path C:\Users\Administrator\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2023-08-01 10:59:23.556 INFO 12204 [MainThread] --- None : [][][MyDb.py:init_db:28] db inited
+2023-08-01 10:59:23.556 INFO 12204 [MainThread] --- None : [][][MyDb.py:init_db:30] db connected 
+2023-08-01 10:59:39.411 INFO 12204 [MainThread] --- None : [][][xxqg_enter.py:load_login_qr:66] 用户未登录，正在获取登录二维码
+2023-08-01 10:59:42.815 INFO 12204 [Thread-1 (check_login)] --- None : [][][xxqg_enter.py:check_login:114] 尝试第1次登录
+2023-08-01 10:59:49.210 INFO 12204 [Thread-1 (check_login)] --- None : [][][xxqg_enter.py:check_login:117] 第1次登录成功
+2023-08-01 10:59:57.842 INFO 12204 [MainThread] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26029
+2023-08-01 10:59:57.842 INFO 12204 [MainThread] --- None : [][][Xxqg.py:get_score:111] 今日积分：27
+2023-08-01 10:59:57.968 INFO 12204 [Dummy-2] --- None : [][][xxqg_enter.py:run:151] 开始2023-08-01的学习
+2023-08-01 10:59:58.818 INFO 12204 [Dummy-2] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26029
+2023-08-01 10:59:58.819 INFO 12204 [Dummy-2] --- None : [][][Xxqg.py:get_score:111] 今日积分：27
+2023-08-01 10:59:58.944 INFO 12204 [Dummy-2] --- None : [][][xxqg_enter.py:run:153] 开始2023-08-01的学习, 积分情况{"today_score": 27, "read_score": 12, "total_read_score": 12, "vision_score": 8, "total_vision_score": 12, "daily_score": 5, "total_daily_score": 5, "special_score": 0, "total_special_score": 0, "total_score": 26029}
+2023-08-01 10:59:58.945 INFO 12204 [Dummy-2] --- None : [][][xxqg_enter.py:run:171] 当前积分：27
+2023-08-01 10:59:58.945 INFO 12204 [Dummy-2] --- None : [][][xxqg_enter.py:run:178] begin watch videos.
+2023-08-01 10:59:58.946 INFO 12204 [Dummy-2] --- None : [][][Xxqg.py:watch_videos:934] begin watch vision_look_score is 8 total vision_look_score is 12 daily_score score is 5 total_daily_score score is 5
+2023-08-01 11:00:02.866 INFO 12204 [Dummy-2] --- None : [][][Xxqg.py:watch_videos:950] watching video 习近平会见美国前国务卿
+2023-08-01 11:01:19.534 INFO 12204 [Dummy-2] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26044
+2023-08-01 11:01:19.535 INFO 12204 [Dummy-2] --- None : [][][Xxqg.py:get_score:111] 今日积分：42
+2023-08-01 11:01:19.665 INFO 12204 [Dummy-2] --- None : [][][Xxqg.py:watch_videos:966] after watch 习近平会见美国前国务卿 vision_look_score 10 total vision_look_score is 12 daily_score score is 5 total_daily_score score is 5
+2023-08-01 11:01:24.050 INFO 12204 [Dummy-2] --- None : [][][Xxqg.py:watch_videos:950] watching video 第六届进博会筹备工作稳步推进
+2023-08-01 11:02:39.574 INFO 12204 [Dummy-2] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26047
+2023-08-01 11:02:39.575 INFO 12204 [Dummy-2] --- None : [][][Xxqg.py:get_score:111] 今日积分：45
+2023-08-01 11:02:39.743 INFO 12204 [Dummy-2] --- None : [][][Xxqg.py:watch_videos:966] after watch 第六届进博会筹备工作稳步推进 vision_look_score 12 total vision_look_score is 12 daily_score score is 5 total_daily_score score is 5
+2023-08-01 11:02:39.743 INFO 12204 [Dummy-2] --- None : [][][Xxqg.py:watch_videos:946] score is ok no need watch.
+2023-08-01 11:02:39.744 INFO 12204 [Dummy-2] --- None : [][][xxqg_enter.py:run:180] video watched.
+2023-08-01 11:02:41.193 INFO 12204 [Dummy-2] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26047
+2023-08-01 11:02:41.193 INFO 12204 [Dummy-2] --- None : [][][Xxqg.py:get_score:111] 今日积分：45
+2023-08-01 11:02:41.317 INFO 12204 [Dummy-2] --- None : [][][xxqg_enter.py:run:190] today score info is {"today_score": 45, "read_score": 12, "total_read_score": 12, "vision_score": 12, "total_vision_score": 12, "daily_score": 5, "total_daily_score": 5, "special_score": 0, "total_special_score": 0, "total_score": 26047}
+2023-08-01 11:02:41.318 INFO 12204 [Dummy-2] --- None : [][][xxqg_enter.py:run:199] 2023-08-01 得分情况：{"today_score": 45, "read_score": 12, "total_read_score": 12, "vision_score": 12, "total_vision_score": 12, "daily_score": 5, "total_daily_score": 5, "special_score": 0, "total_special_score": 0, "total_score": 26047}, study is over
+2023-08-02 08:37:26.113 INFO 13636 [MainThread] --- None : [][][my_log.py:get_logger:60] SpdbLog model inited.
+2023-08-02 08:37:26.114 INFO 13636 [MainThread] --- None : [][][my_log.py:get_logger:61] log file is F:\work\xxqg_enter\utils\../log\server.log
+2023-08-02 08:37:26.138 INFO 13636 [MainThread] --- None : [][][Xxqg.py:init_driver:58] installing web driver
+2023-08-02 08:37:36.803 INFO 13636 [MainThread] --- None : [][][Xxqg.py:init_driver:60] webdriver installed on path C:\Users\Administrator\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2023-08-02 08:37:41.638 INFO 13636 [MainThread] --- None : [][][MyDb.py:init_db:28] db inited
+2023-08-02 08:37:41.639 INFO 13636 [MainThread] --- None : [][][MyDb.py:init_db:30] db connected 
+2023-08-02 08:37:52.749 INFO 13636 [MainThread] --- None : [][][xxqg_enter.py:load_login_qr:66] 用户未登录，正在获取登录二维码
+2023-08-02 08:37:56.748 INFO 13636 [Thread-2 (check_login)] --- None : [][][xxqg_enter.py:check_login:114] 尝试第1次登录
+2023-08-02 08:38:56.917 INFO 13636 [Thread-2 (check_login)] --- None : [][][xxqg_enter.py:check_login:120] 第1次登录失败
+2023-08-02 08:38:56.918 INFO 13636 [Thread-2 (check_login)] --- None : [][][xxqg_enter.py:check_login:114] 尝试第2次登录
+2023-08-02 08:39:31.856 INFO 13636 [Thread-2 (check_login)] --- None : [][][xxqg_enter.py:check_login:117] 第2次登录成功
+2023-08-02 08:39:44.527 INFO 13636 [MainThread] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26049
+2023-08-02 08:39:44.528 INFO 13636 [MainThread] --- None : [][][Xxqg.py:get_score:111] 今日积分：2
+2023-08-02 08:39:44.677 INFO 13636 [Dummy-3] --- None : [][][xxqg_enter.py:run:151] 开始2023-08-02的学习
+2023-08-02 08:39:45.422 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26049
+2023-08-02 08:39:45.423 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：2
+2023-08-02 08:39:45.536 INFO 13636 [Dummy-3] --- None : [][][xxqg_enter.py:run:153] 开始2023-08-02的学习, 积分情况{"today_score": 2, "read_score": 0, "total_read_score": 12, "vision_score": 0, "total_vision_score": 12, "daily_score": 0, "total_daily_score": 5, "special_score": 0, "total_special_score": 0, "total_score": 26049}
+2023-08-02 08:39:45.536 INFO 13636 [Dummy-3] --- None : [][][xxqg_enter.py:run:171] 当前积分：2
+2023-08-02 08:39:45.537 INFO 13636 [Dummy-3] --- None : [][][xxqg_enter.py:run:173] begin read articles.
+2023-08-02 08:39:45.537 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:read_articles:306] begin reading articles today score is 0 total score is 12
+2023-08-02 08:39:45.538 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:read_articles:319] selecting artile from https://www.xuexi.cn/xxqg.html?id=cc8b6dc4f4c042e49fc93c279c41dc14
+2023-08-02 08:39:49.732 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:read_articles:325] reading article 巴勒斯坦各政治派别会议在埃及举行
+2023-08-02 08:42:14.983 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26062
+2023-08-02 08:42:14.984 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：15
+2023-08-02 08:42:15.106 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:read_articles:367] after read article 巴勒斯坦各政治派别会议在埃及举行 score is 3 total score is 12
+2023-08-02 08:42:15.107 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:read_articles:319] selecting artile from https://www.xuexi.cn/xxqg.html?id=cc8b6dc4f4c042e49fc93c279c41dc14
+2023-08-02 08:42:19.585 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 巴勒斯坦各政治派别会议在埃及举行 have been read ago
+2023-08-02 08:42:19.586 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:read_articles:325] reading article 普京：俄罗斯从未拒绝就乌克兰问题进行和平谈判
+2023-08-02 08:44:44.341 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26067
+2023-08-02 08:44:44.342 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：20
+2023-08-02 08:44:44.445 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:read_articles:367] after read article 普京：俄罗斯从未拒绝就乌克兰问题进行和平谈判 score is 6 total score is 12
+2023-08-02 08:44:44.446 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:read_articles:319] selecting artile from https://www.xuexi.cn/xxqg.html?id=cc8b6dc4f4c042e49fc93c279c41dc14
+2023-08-02 08:44:48.416 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 巴勒斯坦各政治派别会议在埃及举行 have been read ago
+2023-08-02 08:44:48.417 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 普京：俄罗斯从未拒绝就乌克兰问题进行和平谈判 have been read ago
+2023-08-02 08:44:48.418 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:read_articles:325] reading article 尼加拉瓜要求美国偿还“历史债务”
+2023-08-02 08:44:49.939 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:read_articles:333] url https://www.xuexi.cn/lgpage/detail/index.html?id=7836262738652621027&item_id=7836262738652621027 is video wathing 
+2023-08-02 08:44:49.941 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:read_articles:337] watch video is not done wathcing ...
+2023-08-02 08:46:01.828 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26070
+2023-08-02 08:46:01.829 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：23
+2023-08-02 08:46:01.948 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:read_articles:319] selecting artile from https://www.xuexi.cn/xxqg.html?id=56acf262eed846f59fba4e00fc57be4a
+2023-08-02 08:46:04.320 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:read_articles:325] reading article 西班牙选后组阁前景面临变数
+2023-08-02 08:48:29.528 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26072
+2023-08-02 08:48:29.528 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：25
+2023-08-02 08:48:29.646 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:read_articles:367] after read article 西班牙选后组阁前景面临变数 score is 9 total score is 12
+2023-08-02 08:48:29.647 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:read_articles:319] selecting artile from https://www.xuexi.cn/xxqg.html?id=cc8b6dc4f4c042e49fc93c279c41dc14
+2023-08-02 08:48:33.977 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 巴勒斯坦各政治派别会议在埃及举行 have been read ago
+2023-08-02 08:48:33.978 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 普京：俄罗斯从未拒绝就乌克兰问题进行和平谈判 have been read ago
+2023-08-02 08:48:33.979 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 尼加拉瓜要求美国偿还“历史债务” have been read ago
+2023-08-02 08:48:33.980 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:read_articles:325] reading article 叙利亚媒体：美国在叙非法驻军用45辆油罐车盗运石油
+2023-08-02 08:48:35.192 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:read_articles:333] url https://www.xuexi.cn/lgpage/detail/index.html?id=15855296001578935627&item_id=15855296001578935627 is video wathing 
+2023-08-02 08:48:35.193 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:read_articles:337] watch video is not done wathcing ...
+2023-08-02 08:49:47.266 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26074
+2023-08-02 08:49:47.267 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：27
+2023-08-02 08:49:47.392 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:read_articles:319] selecting artile from https://www.xuexi.cn/xxqg.html?id=56acf262eed846f59fba4e00fc57be4a
+2023-08-02 08:49:50.129 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 西班牙选后组阁前景面临变数 have been read ago
+2023-08-02 08:49:50.130 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:read_articles:325] reading article 俄指乌用集束弹药攻击俄本土 美军或到黑海“护粮”？
+2023-08-02 08:49:51.665 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:read_articles:333] url https://www.xuexi.cn/lgpage/detail/index.html?id=17134402683604336360&item_id=17134402683604336360 is video wathing 
+2023-08-02 08:49:51.666 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:read_articles:337] watch video is not done wathcing ...
+2023-08-02 08:51:05.909 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26076
+2023-08-02 08:51:05.910 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：29
+2023-08-02 08:51:06.040 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:read_articles:319] selecting artile from https://www.xuexi.cn/6ffce1c0a4d8da43de4365e6590c4b9f/9a3668c13f6e303932b5e0e100fc248b.html
+2023-08-02 08:51:08.444 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:read_articles:325] reading article 逐梦建功中老铁路——记中国中铁五局中老铁路磨万一标员工陈发亚
+2023-08-02 08:53:33.549 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26077
+2023-08-02 08:53:33.549 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：30
+2023-08-02 08:53:33.675 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:read_articles:367] after read article 逐梦建功中老铁路——记中国中铁五局中老铁路磨万一标员工陈发亚 score is 11 total score is 12
+2023-08-02 08:53:33.675 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:read_articles:319] selecting artile from https://www.xuexi.cn/xxqg.html?id=cc8b6dc4f4c042e49fc93c279c41dc14
+2023-08-02 08:53:38.222 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 巴勒斯坦各政治派别会议在埃及举行 have been read ago
+2023-08-02 08:53:38.223 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 普京：俄罗斯从未拒绝就乌克兰问题进行和平谈判 have been read ago
+2023-08-02 08:53:38.224 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 尼加拉瓜要求美国偿还“历史债务” have been read ago
+2023-08-02 08:53:38.224 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 叙利亚媒体：美国在叙非法驻军用45辆油罐车盗运石油 have been read ago
+2023-08-02 08:53:38.225 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:read_articles:325] reading article 俄称击退乌军进攻 乌称打击俄军集结点
+2023-08-02 08:53:39.853 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:read_articles:333] url https://www.xuexi.cn/lgpage/detail/index.html?id=6792538809241755581&item_id=6792538809241755581 is video wathing 
+2023-08-02 08:53:39.854 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:read_articles:337] watch video is not done wathcing ...
+2023-08-02 08:54:51.707 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26079
+2023-08-02 08:54:51.708 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：32
+2023-08-02 08:54:51.836 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:read_articles:319] selecting artile from https://www.xuexi.cn/xxqg.html?id=56acf262eed846f59fba4e00fc57be4a
+2023-08-02 08:54:54.360 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 西班牙选后组阁前景面临变数 have been read ago
+2023-08-02 08:54:54.360 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 俄指乌用集束弹药攻击俄本土 美军或到黑海“护粮”？ have been read ago
+2023-08-02 08:54:54.360 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:read_articles:325] reading article 伊朗央行副行长：伊朗将继续进行“去美元化”政策
+2023-08-02 08:54:55.731 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:read_articles:333] url https://www.xuexi.cn/lgpage/detail/index.html?id=5847434073416862628&item_id=5847434073416862628 is video wathing 
+2023-08-02 08:54:55.732 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:read_articles:337] watch video is not done wathcing ...
+2023-08-02 08:56:07.239 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26081
+2023-08-02 08:56:07.239 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：34
+2023-08-02 08:56:07.368 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:read_articles:319] selecting artile from https://www.xuexi.cn/6ffce1c0a4d8da43de4365e6590c4b9f/9a3668c13f6e303932b5e0e100fc248b.html
+2023-08-02 08:56:09.540 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 逐梦建功中老铁路——记中国中铁五局中老铁路磨万一标员工陈发亚 have been read ago
+2023-08-02 08:56:09.541 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:read_articles:325] reading article “铺就一条通往共同发展繁荣之路”——走进共建“一带一路”首倡之地哈萨克斯坦
+2023-08-02 08:58:34.634 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26082
+2023-08-02 08:58:34.635 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：35
+2023-08-02 08:58:34.765 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:read_articles:367] after read article “铺就一条通往共同发展繁荣之路”——走进共建“一带一路”首倡之地哈萨克斯坦 score is 12 total score is 12
+2023-08-02 08:58:34.766 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:read_articles:371] articles read score is 12 total score is 12
+2023-08-02 08:58:34.766 INFO 13636 [Dummy-3] --- None : [][][xxqg_enter.py:run:175] article readed
+2023-08-02 08:58:34.767 INFO 13636 [Dummy-3] --- None : [][][xxqg_enter.py:run:178] begin watch videos.
+2023-08-02 08:58:34.767 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:watch_videos:934] begin watch vision_look_score is 9 total vision_look_score is 12 daily_score score is 0 total_daily_score score is 5
+2023-08-02 08:58:39.941 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:watch_videos:950] watching video 习近平对全军党的建设会议作出重要指示强调 开创我军党的领导和党的建设工作新局面 为实现建军一百年奋斗目标提供坚强政治保证
+2023-08-02 08:59:55.984 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26084
+2023-08-02 08:59:55.985 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：37
+2023-08-02 08:59:56.135 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:watch_videos:966] after watch 习近平对全军党的建设会议作出重要指示强调 开创我军党的领导和党的建设工作新局面 为实现建军一百年奋斗目标提供坚强政治保证 vision_look_score 11 total vision_look_score is 12 daily_score score is 0 total_daily_score score is 5
+2023-08-02 09:00:01.434 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:get_watchable_video:253] video 第六届进博会筹备工作稳步推进 is watched
+2023-08-02 09:00:01.449 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:watch_videos:950] watching video 世界大学生运动员人文交流活动启动
+2023-08-02 09:01:35.665 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26085
+2023-08-02 09:01:35.665 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：38
+2023-08-02 09:01:35.796 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:watch_videos:966] after watch 世界大学生运动员人文交流活动启动 vision_look_score 12 total vision_look_score is 12 daily_score score is 0 total_daily_score score is 5
+2023-08-02 09:01:40.902 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:watch_videos:950] watching video 以国之名 永续传承
+2023-08-02 09:03:23.150 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26085
+2023-08-02 09:03:23.151 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：38
+2023-08-02 09:03:23.286 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:watch_videos:966] after watch 以国之名 永续传承 vision_look_score 12 total vision_look_score is 12 daily_score score is 0 total_daily_score score is 5
+2023-08-02 09:03:29.046 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:watch_videos:950] watching video 《新闻联播》 20230712
+2023-08-02 09:05:03.417 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26085
+2023-08-02 09:05:03.418 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：38
+2023-08-02 09:05:03.543 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:watch_videos:966] after watch 《新闻联播》 20230712 vision_look_score 12 total vision_look_score is 12 daily_score score is 0 total_daily_score score is 5
+2023-08-02 09:05:03.543 INFO 13636 [Dummy-3] --- None : [][][xxqg_enter.py:run:180] video watched.
+2023-08-02 09:05:03.544 INFO 13636 [Dummy-3] --- None : [][][xxqg_enter.py:run:182] begin daily_exam.
+2023-08-02 09:05:03.544 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:daily_answer:418] begin reading articles today score is 12 total score is 12
+2023-08-02 09:12:49.490 ERROR 13636 [Dummy-3] --- None : [][][Xxqg.py:daily_answer:454] no confirm buts
+2023-08-02 09:12:49.595 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:daily_answer:591] daily answer is ok
+2023-08-02 09:12:49.596 INFO 13636 [Dummy-3] --- None : [][][xxqg_enter.py:run:184] daily_exam over.
+2023-08-02 09:12:50.556 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26090
+2023-08-02 09:12:50.557 INFO 13636 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：43
+2023-08-02 09:12:50.691 INFO 13636 [Dummy-3] --- None : [][][xxqg_enter.py:run:190] today score info is {"today_score": 43, "read_score": 12, "total_read_score": 12, "vision_score": 12, "total_vision_score": 12, "daily_score": 5, "total_daily_score": 5, "special_score": 0, "total_special_score": 0, "total_score": 26090}
+2023-08-02 09:12:50.691 INFO 13636 [Dummy-3] --- None : [][][xxqg_enter.py:run:199] 2023-08-02 得分情况：{"today_score": 43, "read_score": 12, "total_read_score": 12, "vision_score": 12, "total_vision_score": 12, "daily_score": 5, "total_daily_score": 5, "special_score": 0, "total_special_score": 0, "total_score": 26090}, study is over
+2023-08-03 08:37:24.468 INFO 20432 [MainThread] --- None : [][][my_log.py:get_logger:60] SpdbLog model inited.
+2023-08-03 08:37:24.469 INFO 20432 [MainThread] --- None : [][][my_log.py:get_logger:61] log file is F:\work\xxqg_enter\utils\../log\server.log
+2023-08-03 08:37:24.492 INFO 20432 [MainThread] --- None : [][][Xxqg.py:init_driver:58] installing web driver
+2023-08-03 08:37:43.784 INFO 20432 [MainThread] --- None : [][][Xxqg.py:init_driver:60] webdriver installed on path C:\Users\Administrator\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2023-08-03 08:37:48.041 INFO 20432 [MainThread] --- None : [][][MyDb.py:init_db:28] db inited
+2023-08-03 08:37:48.042 INFO 20432 [MainThread] --- None : [][][MyDb.py:init_db:30] db connected 
+2023-08-03 08:37:52.356 INFO 20432 [MainThread] --- None : [][][xxqg_enter.py:load_login_qr:66] 用户未登录，正在获取登录二维码
+2023-08-03 08:37:59.587 INFO 20432 [Thread-2 (check_login)] --- None : [][][xxqg_enter.py:check_login:114] 尝试第1次登录
+2023-08-03 08:38:05.070 INFO 20432 [Thread-2 (check_login)] --- None : [][][xxqg_enter.py:check_login:117] 第1次登录成功
+2023-08-03 08:38:09.440 INFO 20432 [MainThread] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26091
+2023-08-03 08:38:09.440 INFO 20432 [MainThread] --- None : [][][Xxqg.py:get_score:111] 今日积分：1
+2023-08-03 08:38:09.570 INFO 20432 [Dummy-3] --- None : [][][xxqg_enter.py:run:151] 开始2023-08-03的学习
+2023-08-03 08:38:10.992 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26091
+2023-08-03 08:38:10.992 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：1
+2023-08-03 08:38:11.123 INFO 20432 [Dummy-3] --- None : [][][xxqg_enter.py:run:153] 开始2023-08-03的学习, 积分情况{"today_score": 1, "read_score": 0, "total_read_score": 12, "vision_score": 0, "total_vision_score": 12, "daily_score": 0, "total_daily_score": 5, "special_score": 0, "total_special_score": 0, "total_score": 26091}
+2023-08-03 08:38:11.123 INFO 20432 [Dummy-3] --- None : [][][xxqg_enter.py:run:171] 当前积分：1
+2023-08-03 08:38:11.124 INFO 20432 [Dummy-3] --- None : [][][xxqg_enter.py:run:173] begin read articles.
+2023-08-03 08:38:11.125 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:read_articles:306] begin reading articles today score is 0 total score is 12
+2023-08-03 08:38:11.126 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:read_articles:319] selecting artile from https://www.xuexi.cn/xxqg.html?id=cc8b6dc4f4c042e49fc93c279c41dc14
+2023-08-03 08:38:15.762 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:read_articles:325] reading article 中共代表团访问土库曼斯坦
+2023-08-03 08:40:41.049 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26093
+2023-08-03 08:40:41.050 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：3
+2023-08-03 08:40:41.175 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:read_articles:367] after read article 中共代表团访问土库曼斯坦 score is 2 total score is 12
+2023-08-03 08:40:41.176 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:read_articles:319] selecting artile from https://www.xuexi.cn/xxqg.html?id=cc8b6dc4f4c042e49fc93c279c41dc14
+2023-08-03 08:40:47.631 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 中共代表团访问土库曼斯坦 have been read ago
+2023-08-03 08:40:47.632 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:read_articles:325] reading article 韩国最大在野党党首敦促日本暂停核污染水排海计划
+2023-08-03 08:40:50.965 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:read_articles:333] url https://www.xuexi.cn/lgpage/detail/index.html?id=2378481319537037101&item_id=2378481319537037101 is video wathing 
+2023-08-03 08:40:50.966 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:read_articles:337] watch video is not done wathcing ...
+2023-08-03 08:42:05.349 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26106
+2023-08-03 08:42:05.349 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：16
+2023-08-03 08:42:05.461 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:read_articles:319] selecting artile from https://www.xuexi.cn/xxqg.html?id=56acf262eed846f59fba4e00fc57be4a
+2023-08-03 08:42:08.728 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:read_articles:325] reading article 炒作“去风险”实质是打压中国
+2023-08-03 08:44:34.638 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26109
+2023-08-03 08:44:34.639 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：19
+2023-08-03 08:44:34.791 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:read_articles:367] after read article 炒作“去风险”实质是打压中国 score is 6 total score is 12
+2023-08-03 08:44:34.792 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:read_articles:319] selecting artile from https://www.xuexi.cn/xxqg.html?id=cc8b6dc4f4c042e49fc93c279c41dc14
+2023-08-03 08:44:39.661 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 中共代表团访问土库曼斯坦 have been read ago
+2023-08-03 08:44:39.662 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 韩国最大在野党党首敦促日本暂停核污染水排海计划 have been read ago
+2023-08-03 08:44:39.663 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:read_articles:325] reading article 美国持续为韩国提供“核保护伞”
+2023-08-03 08:44:41.232 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:read_articles:333] url https://www.xuexi.cn/lgpage/detail/index.html?id=15926487774430707596&item_id=15926487774430707596 is video wathing 
+2023-08-03 08:44:41.233 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:read_articles:337] watch video is not done wathcing ...
+2023-08-03 08:45:54.274 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26112
+2023-08-03 08:45:54.275 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：22
+2023-08-03 08:45:54.447 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:read_articles:319] selecting artile from https://www.xuexi.cn/xxqg.html?id=56acf262eed846f59fba4e00fc57be4a
+2023-08-03 08:45:56.898 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 炒作“去风险”实质是打压中国 have been read ago
+2023-08-03 08:45:56.899 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:read_articles:325] reading article 克里米亚或将成俄乌攻防新重点？
+2023-08-03 08:45:58.215 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:read_articles:333] url https://www.xuexi.cn/lgpage/detail/index.html?id=16449696096621237746&item_id=16449696096621237746 is video wathing 
+2023-08-03 08:45:58.216 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:read_articles:337] watch video is not done wathcing ...
+2023-08-03 08:47:09.759 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26114
+2023-08-03 08:47:09.760 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：24
+2023-08-03 08:47:09.879 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:read_articles:319] selecting artile from https://www.xuexi.cn/6ffce1c0a4d8da43de4365e6590c4b9f/9a3668c13f6e303932b5e0e100fc248b.html
+2023-08-03 08:47:11.675 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:read_articles:325] reading article 缩短距离 提振经济——中企承建克罗地亚佩列沙茨大桥通车一周年民生效益凸显
+2023-08-03 08:49:37.534 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26116
+2023-08-03 08:49:37.534 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：26
+2023-08-03 08:49:37.664 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:read_articles:367] after read article 缩短距离 提振经济——中企承建克罗地亚佩列沙茨大桥通车一周年民生效益凸显 score is 9 total score is 12
+2023-08-03 08:49:37.665 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:read_articles:319] selecting artile from https://www.xuexi.cn/xxqg.html?id=cc8b6dc4f4c042e49fc93c279c41dc14
+2023-08-03 08:49:47.676 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 中共代表团访问土库曼斯坦 have been read ago
+2023-08-03 08:49:47.677 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 韩国最大在野党党首敦促日本暂停核污染水排海计划 have been read ago
+2023-08-03 08:49:47.678 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 美国持续为韩国提供“核保护伞” have been read ago
+2023-08-03 08:49:47.679 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:read_articles:325] reading article 美媒：沙特将主办乌克兰问题“和平会议” 俄被排除在外
+2023-08-03 08:49:48.919 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:read_articles:333] url https://www.xuexi.cn/lgpage/detail/index.html?id=3844350460362772788&item_id=3844350460362772788 is video wathing 
+2023-08-03 08:49:48.920 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:read_articles:337] watch video is not done wathcing ...
+2023-08-03 08:51:00.633 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26118
+2023-08-03 08:51:00.634 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：28
+2023-08-03 08:51:00.786 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:read_articles:319] selecting artile from https://www.xuexi.cn/xxqg.html?id=56acf262eed846f59fba4e00fc57be4a
+2023-08-03 08:51:02.787 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 炒作“去风险”实质是打压中国 have been read ago
+2023-08-03 08:51:02.788 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 克里米亚或将成俄乌攻防新重点？ have been read ago
+2023-08-03 08:51:02.789 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:read_articles:325] reading article 波兰增兵波白边境
+2023-08-03 08:51:04.717 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:read_articles:333] url https://www.xuexi.cn/lgpage/detail/index.html?id=7646683757471864469&item_id=7646683757471864469 is video wathing 
+2023-08-03 08:51:04.717 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:read_articles:337] watch video is not done wathcing ...
+2023-08-03 08:52:16.338 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26120
+2023-08-03 08:52:16.339 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：30
+2023-08-03 08:52:16.636 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:read_articles:319] selecting artile from https://www.xuexi.cn/6ffce1c0a4d8da43de4365e6590c4b9f/9a3668c13f6e303932b5e0e100fc248b.html
+2023-08-03 08:52:18.813 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 缩短距离 提振经济——中企承建克罗地亚佩列沙茨大桥通车一周年民生效益凸显 have been read ago
+2023-08-03 08:52:18.813 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:read_articles:325] reading article 中老铁路实施新列车运行图
+2023-08-03 08:54:43.911 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26122
+2023-08-03 08:54:43.912 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：32
+2023-08-03 08:54:44.089 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:read_articles:367] after read article 中老铁路实施新列车运行图 score is 11 total score is 12
+2023-08-03 08:54:44.089 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:read_articles:319] selecting artile from https://www.xuexi.cn/xxqg.html?id=cc8b6dc4f4c042e49fc93c279c41dc14
+2023-08-03 08:54:48.323 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 中共代表团访问土库曼斯坦 have been read ago
+2023-08-03 08:54:48.324 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 韩国最大在野党党首敦促日本暂停核污染水排海计划 have been read ago
+2023-08-03 08:54:48.325 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 美国持续为韩国提供“核保护伞” have been read ago
+2023-08-03 08:54:48.326 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:get_read_able_article:296] 美媒：沙特将主办乌克兰问题“和平会议” 俄被排除在外 have been read ago
+2023-08-03 08:54:48.327 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:read_articles:325] reading article 莫斯科再遭无人机袭击
+2023-08-03 08:57:14.029 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26123
+2023-08-03 08:57:14.030 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：33
+2023-08-03 08:57:14.178 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:read_articles:367] after read article 莫斯科再遭无人机袭击 score is 12 total score is 12
+2023-08-03 08:57:14.179 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:read_articles:371] articles read score is 12 total score is 12
+2023-08-03 08:57:14.180 INFO 20432 [Dummy-3] --- None : [][][xxqg_enter.py:run:175] article readed
+2023-08-03 08:57:14.181 INFO 20432 [Dummy-3] --- None : [][][xxqg_enter.py:run:178] begin watch videos.
+2023-08-03 08:57:14.181 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:watch_videos:934] begin watch vision_look_score is 10 total vision_look_score is 12 daily_score score is 0 total_daily_score score is 5
+2023-08-03 08:57:20.651 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:watch_videos:950] watching video 就当前经济形势和下半年经济工作 中共中央召开党外人士座谈会 习近平主持并发表重要讲话
+2023-08-03 08:58:36.637 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26125
+2023-08-03 08:58:36.637 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：35
+2023-08-03 08:58:36.760 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:watch_videos:966] after watch 就当前经济形势和下半年经济工作 中共中央召开党外人士座谈会 习近平主持并发表重要讲话 vision_look_score 12 total vision_look_score is 12 daily_score score is 0 total_daily_score score is 5
+2023-08-03 08:58:43.982 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:watch_videos:950] watching video 2022年我国“三新”经济增加值超21万亿
+2023-08-03 09:00:17.217 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26125
+2023-08-03 09:00:17.218 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：35
+2023-08-03 09:00:17.342 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:watch_videos:966] after watch 2022年我国“三新”经济增加值超21万亿 vision_look_score 12 total vision_look_score is 12 daily_score score is 0 total_daily_score score is 5
+2023-08-03 09:00:22.754 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:get_watchable_video:253] video 以国之名 永续传承 is watched
+2023-08-03 09:00:22.770 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:watch_videos:950] watching video 归来
+2023-08-03 09:01:59.244 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26125
+2023-08-03 09:01:59.245 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:get_score:111] 今日积分：35
+2023-08-03 09:01:59.379 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:watch_videos:966] after watch 归来 vision_look_score 12 total vision_look_score is 12 daily_score score is 0 total_daily_score score is 5
+2023-08-03 09:02:04.830 INFO 20432 [Dummy-3] --- None : [][][Xxqg.py:watch_videos:950] watching video 《新闻联播》 20230713
+2023-08-03 09:03:58.252 INFO 20432 [Dummy-3] --- None : [][][xxqg_enter.py:run:192] 学习过程出现异常，重新开始
+2023-08-03 09:03:58.256 ERROR 20432 [Dummy-3] --- None : [][][xxqg_enter.py:run:193] err msg Traceback (most recent call last):
+  File "xxqg_enter.py", line 179, in run
+  File "Xxqg.py", line 962, in watch_videos
+  File "selenium\webdriver\remote\webdriver.py", line 551, in close
+  File "selenium\webdriver\remote\webdriver.py", line 440, in execute
+  File "selenium\webdriver\remote\errorhandler.py", line 245, in check_response
+selenium.common.exceptions.WebDriverException: Message: unknown error: failed to close window in 20 seconds
+  (Session info: chrome=114.0.5735.199)
+Stacktrace:
+Backtrace:
+	GetHandleVerifier [0x0095A813+48355]
+	(No symbol) [0x008EC4B1]
+	(No symbol) [0x007F5358]
+	(No symbol) [0x007DFE5E]
+	(No symbol) [0x007DFED4]
+	(No symbol) [0x00842C29]
+	(No symbol) [0x0083A703]
+	(No symbol) [0x008182DC]
+	(No symbol) [0x008193DD]
+	GetHandleVerifier [0x00BBAABD+2539405]
+	GetHandleVerifier [0x00BFA78F+2800735]
+	GetHandleVerifier [0x00BF456C+2775612]
+	GetHandleVerifier [0x009E51E0+616112]
+	(No symbol) [0x008F5F8C]
+	(No symbol) [0x008F2328]
+	(No symbol) [0x008F240B]
+	(No symbol) [0x008E4FF7]
+	BaseThreadInitThunk [0x765900C9+25]
+	RtlGetAppContainerNamedObjectPath [0x77DE7B1E+286]
+	RtlGetAppContainerNamedObjectPath [0x77DE7AEE+238]
+
+
+2023-08-03 09:41:35.055 INFO 20044 [MainThread] --- None : [][][my_log.py:get_logger:60] SpdbLog model inited.
+2023-08-03 09:41:35.057 INFO 20044 [MainThread] --- None : [][][my_log.py:get_logger:61] log file is F:\work\xxqg_enter\utils\../log\server.log
+2023-08-03 09:41:35.088 INFO 20044 [MainThread] --- None : [][][Xxqg.py:init_driver:58] installing web driver
+2023-08-03 09:41:35.843 INFO 20044 [MainThread] --- None : [][][Xxqg.py:init_driver:60] webdriver installed on path C:\Users\Administrator\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2023-08-03 09:41:47.204 INFO 8584 [MainThread] --- None : [][][my_log.py:get_logger:60] SpdbLog model inited.
+2023-08-03 09:41:47.204 INFO 8584 [MainThread] --- None : [][][my_log.py:get_logger:61] log file is F:\work\xxqg_enter\utils\../log\server.log
+2023-08-03 09:41:47.223 INFO 8584 [MainThread] --- None : [][][Xxqg.py:init_driver:58] installing web driver
+2023-08-03 09:41:47.784 INFO 8584 [MainThread] --- None : [][][Xxqg.py:init_driver:60] webdriver installed on path C:\Users\Administrator\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2023-08-03 09:41:49.215 INFO 8584 [MainThread] --- None : [][][MyDb.py:init_db:28] db inited
+2023-08-03 09:41:49.216 INFO 8584 [MainThread] --- None : [][][MyDb.py:init_db:30] db connected 
+2023-08-03 09:42:00.779 INFO 8584 [MainThread] --- None : [][][xxqg_enter.py:load_login_qr:66] 用户未登录，正在获取登录二维码
+2023-08-03 09:42:05.675 INFO 8584 [Thread-1 (check_login)] --- None : [][][xxqg_enter.py:check_login:114] 尝试第1次登录
+2023-08-03 09:42:14.032 INFO 8584 [Thread-1 (check_login)] --- None : [][][xxqg_enter.py:check_login:117] 第1次登录成功
+2023-08-03 09:42:19.450 INFO 8584 [MainThread] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26125
+2023-08-03 09:42:19.451 INFO 8584 [MainThread] --- None : [][][Xxqg.py:get_score:111] 今日积分：35
+2023-08-03 09:42:19.576 INFO 8584 [Dummy-2] --- None : [][][xxqg_enter.py:run:151] 开始2023-08-03的学习
+2023-08-03 09:42:20.227 INFO 8584 [Dummy-2] --- None : [][][Xxqg.py:get_score:110] 当前总积分：26125
+2023-08-03 09:42:20.229 INFO 8584 [Dummy-2] --- None : [][][Xxqg.py:get_score:111] 今日积分：35
+2023-08-03 09:42:20.335 INFO 8584 [Dummy-2] --- None : [][][xxqg_enter.py:run:153] 开始2023-08-03的学习, 积分情况{"today_score": 35, "read_score": 12, "total_read_score": 12, "vision_score": 12, "total_vision_score": 12, "daily_score": 0, "total_daily_score": 5, "special_score": 0, "total_special_score": 0, "total_score": 26125}
+2023-08-03 09:42:20.335 INFO 8584 [Dummy-2] --- None : [][][xxqg_enter.py:run:171] 当前积分：35
+2023-08-03 09:42:20.336 INFO 8584 [Dummy-2] --- None : [][][xxqg_enter.py:run:178] begin watch videos.
+2023-08-03 09:42:20.337 INFO 8584 [Dummy-2] --- None : [][][Xxqg.py:watch_videos:934] begin watch vision_look_score is 12 total vision_look_score is 12 daily_score score is 0 total_daily_score score is 5
+2023-08-03 09:42:20.337 INFO 8584 [Dummy-2] --- None : [][][xxqg_enter.py:run:180] video watched.
+2023-08-03 09:42:20.338 INFO 8584 [Dummy-2] --- None : [][][xxqg_enter.py:run:182] begin daily_exam.
+2023-08-03 09:42:20.338 INFO 8584 [Dummy-2] --- None : [][][Xxqg.py:daily_answer:418] begin reading articles today score is 12 total score is 12
+2023-08-04 08:40:25.654 INFO 17196 [MainThread] --- None : [][][my_log.py:get_logger:60] SpdbLog model inited.
+2023-08-04 08:40:25.655 INFO 17196 [MainThread] --- None : [][][my_log.py:get_logger:61] log file is F:\work\xxqg_enter\utils\../log\server.log
+2023-08-04 08:40:25.682 INFO 17196 [MainThread] --- None : [][][Xxqg.py:init_driver:58] installing web driver
+2023-08-04 08:40:38.640 INFO 17440 [MainThread] --- None : [][][my_log.py:get_logger:60] SpdbLog model inited.
+2023-08-04 08:40:38.641 INFO 17440 [MainThread] --- None : [][][my_log.py:get_logger:61] log file is F:\work\xxqg_enter\utils\../log\server.log
+2023-08-04 08:40:38.662 INFO 17440 [MainThread] --- None : [][][Xxqg.py:init_driver:58] installing web driver
+2023-08-04 08:40:46.476 INFO 10680 [MainThread] --- None : [][][my_log.py:get_logger:60] SpdbLog model inited.
+2023-08-04 08:40:46.476 INFO 10680 [MainThread] --- None : [][][my_log.py:get_logger:61] log file is F:\work\xxqg_enter\utils\../log\server.log
+2023-08-04 08:40:46.498 INFO 10680 [MainThread] --- None : [][][Xxqg.py:init_driver:58] installing web driver
+2023-08-07 09:05:05.444 INFO 16952 [MainThread] --- None : [][][my_log.py:get_logger:60] SpdbLog model inited.
+2023-08-07 09:05:05.445 INFO 16952 [MainThread] --- None : [][][my_log.py:get_logger:61] log file is F:\work\xxqg_enter\utils\../log\server.log
+2023-08-07 09:05:05.476 INFO 16952 [MainThread] --- None : [][][Xxqg.py:init_driver:62] installing web driver
+2023-08-07 09:06:27.042 INFO 16952 [MainThread] --- None : [][][Xxqg.py:init_driver:68] webdriver installed on path C:\Users\Administrator\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2023-08-07 09:06:31.226 INFO 16952 [MainThread] --- None : [][][MyDb.py:init_db:28] db inited
+2023-08-07 09:06:31.226 INFO 16952 [MainThread] --- None : [][][MyDb.py:init_db:30] db connected 
+2023-08-07 09:06:35.258 INFO 16952 [MainThread] --- None : [][][xxqg_enter.py:load_login_qr:66] 用户未登录，正在获取登录二维码
+2023-08-07 09:06:54.737 INFO 16952 [Thread-2 (check_login)] --- None : [][][xxqg_enter.py:check_login:114] 尝试第1次登录
+2023-08-07 09:07:00.469 INFO 16952 [Thread-2 (check_login)] --- None : [][][xxqg_enter.py:check_login:117] 第1次登录成功
+2023-08-07 09:07:40.378 INFO 16952 [MainThread] --- None : [][][Xxqg.py:get_score:118] 当前总积分：26241
+2023-08-07 09:07:40.379 INFO 16952 [MainThread] --- None : [][][Xxqg.py:get_score:119] 今日积分：1
+2023-08-07 09:07:40.506 INFO 16952 [Dummy-3] --- None : [][][xxqg_enter.py:run:151] 开始2023-08-07的学习
+2023-08-07 09:07:41.334 INFO 16952 [Dummy-3] --- None : [][][Xxqg.py:get_score:118] 当前总积分：26241
+2023-08-07 09:07:41.335 INFO 16952 [Dummy-3] --- None : [][][Xxqg.py:get_score:119] 今日积分：1
+2023-08-07 09:07:41.451 INFO 16952 [Dummy-3] --- None : [][][xxqg_enter.py:run:153] 开始2023-08-07的学习, 积分情况{"today_score": 1, "read_score": 0, "total_read_score": 12, "vision_score": 0, "total_vision_score": 12, "daily_score": 0, "total_daily_score": 5, "special_score": 0, "total_special_score": 0, "total_score": 26241}
+2023-08-07 09:07:41.451 INFO 16952 [Dummy-3] --- None : [][][xxqg_enter.py:run:171] 当前积分：1
+2023-08-07 09:07:41.452 INFO 16952 [Dummy-3] --- None : [][][xxqg_enter.py:run:173] begin read articles.
+2023-08-07 09:07:41.453 INFO 16952 [Dummy-3] --- None : [][][Xxqg.py:read_articles:314] begin reading articles today score is 0 total score is 12
+2023-08-07 09:07:41.453 INFO 16952 [Dummy-3] --- None : [][][Xxqg.py:read_articles:327] selecting artile from https://www.xuexi.cn/xxqg.html?id=cc8b6dc4f4c042e49fc93c279c41dc14
+2023-08-07 09:08:01.694 INFO 16952 [Dummy-3] --- None : [][][xxqg_enter.py:run:192] 学习过程出现异常，重新开始
+2023-08-07 09:08:01.703 ERROR 16952 [Dummy-3] --- None : [][][xxqg_enter.py:run:193] err msg Traceback (most recent call last):
+  File "xxqg_enter.py", line 174, in run
+  File "Xxqg.py", line 328, in read_articles
+  File "Xxqg.py", line 270, in get_read_able_article
+  File "Xxqg.py", line 227, in get_total_page
+IndexError: list index out of range
+
+2023-08-07 09:11:05.211 INFO 2248 [MainThread] --- None : [][][my_log.py:get_logger:60] SpdbLog model inited.
+2023-08-07 09:11:05.212 INFO 2248 [MainThread] --- None : [][][my_log.py:get_logger:61] log file is F:\work\xxqg_enter\utils\../log\server.log
+2023-08-07 09:11:05.233 INFO 2248 [MainThread] --- None : [][][Xxqg.py:init_driver:62] installing web driver
+2023-08-07 09:11:05.822 INFO 2248 [MainThread] --- None : [][][Xxqg.py:init_driver:68] webdriver installed on path C:\Users\Administrator\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2023-08-07 09:11:07.308 INFO 2248 [MainThread] --- None : [][][MyDb.py:init_db:28] db inited
+2023-08-07 09:11:07.309 INFO 2248 [MainThread] --- None : [][][MyDb.py:init_db:30] db connected 
+2023-08-07 09:11:18.050 INFO 2248 [MainThread] --- None : [][][xxqg_enter.py:load_login_qr:66] 用户未登录，正在获取登录二维码
+2023-08-07 09:14:30.390 INFO 4912 [MainThread] --- None : [][][my_log.py:get_logger:60] SpdbLog model inited.
+2023-08-07 09:14:30.390 INFO 4912 [MainThread] --- None : [][][my_log.py:get_logger:61] log file is F:\work\xxqg_enter\utils\../log\server.log
+2023-08-07 09:14:30.422 INFO 4912 [MainThread] --- None : [][][Xxqg.py:init_driver:62] installing web driver
+2023-08-07 09:14:31.062 INFO 4912 [MainThread] --- None : [][][Xxqg.py:init_driver:68] webdriver installed on path C:\Users\Administrator\.wdm\drivers\chromedriver\win32\114.0.5735.90\chromedriver.exe
+2023-08-07 09:14:37.734 ERROR 4912 [MainThread] --- None : [][][Xxqg.py:__init__:37] init web driver error. exist.
+2023-08-07 09:14:51.648 INFO 872 [MainThread] --- None : [][][my_log.py:get_logger:60] SpdbLog model inited.
+2023-08-07 09:14:51.648 INFO 872 [MainThread] --- None : [][][my_log.py:get_logger:61] log file is F:\work\xxqg_enter\utils\../log\server.log
+2023-08-07 09:14:51.664 INFO 872 [MainThread] --- None : [][][Xxqg.py:init_driver:62] installing web driver
+2023-08-07 09:14:52.586 ERROR 872 [MainThread] --- None : [][][Xxqg.py:__init__:37] init web driver error. exist.
+2023-08-07 09:14:55.289 INFO 5824 [MainThread] --- None : [][][my_log.py:get_logger:60] SpdbLog model inited.
+2023-08-07 09:14:55.289 INFO 5824 [MainThread] --- None : [][][my_log.py:get_logger:61] log file is F:\work\xxqg_enter\utils\../log\server.log
+2023-08-07 09:14:55.320 INFO 5824 [MainThread] --- None : [][][Xxqg.py:init_driver:62] installing web driver
+2023-08-07 09:14:56.554 ERROR 5824 [MainThread] --- None : [][][Xxqg.py:__init__:37] init web driver error. exist.
